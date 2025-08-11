@@ -1,0 +1,2565 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "hii",
+                "hiii",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up",
+                "hay",
+                "how are ya",
+                "whats up",
+                "heyy",
+                "whatsup",
+                "watsup",
+                "Hi there, can you help me with something?",
+                "Hello! I have a question. Can you assist me?",
+                "Hey, I need your help with something.",
+                "Good morning/afternoon/evening! Can you answer a question for me?",
+                "Greetings! I need your assistance with something.",
+                "Hi,can you provide me with some information?",
+                "Hello, can you help me with a task?",
+                "Hey,I'm looking for some guidance. Can you help?",
+                "Good day! Can you assist me with a query?",
+                "Hi,I would like to ask you a question.",
+                "Hello",
+                "Hey there",
+                "Greetings",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Salutations",
+                "Howdy",
+                "Yo",
+                "Hiya",
+                "hai",
+                "What's up",
+                "Sup",
+                "Hola",
+                "Bonjour",
+                "Ciao",
+                "Konnichiwa",
+                "Namaste",
+                "Salaam",
+                "Shalom",
+                "Good day",
+                "Pleasure to chat with you",
+                "It's great to talk with you",
+                "Hi chatbot",
+                "Hello chatbot",
+                "Hey chatbot",
+                "What's new",
+                "How's it going",
+                "What's happening",
+                "What can you do for me",
+                "How can I assist you",
+                "Can you help me",
+                "I need your help",
+                "I have a question",
+                "I'm here to chat",
+                "Let's talk",
+                "What's on your mind",
+                "What are you capable of doing",
+                "What brings you here"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there, how can I help?",
+                "Greetings, how may i help you?",
+                "Good day, what brings you here?",
+                "Howdy, what's on your mind?",
+                "Yo, what can I do for you?",
+                "Hey there, how may I assist you?",
+                "Welcome, what can I help you with?",
+                "Nice to meet you, how may I be of assistance?",
+                "Pleasure to chat with you, what can I do for you?",
+                "I'm MediBot, how can I help you today?",
+                "My name is MediBot , what can I do for you?",
+                "I'm here to help, what can I assist you with?",
+                "What's up, how may I assist you today?",
+                "Hi, how can I be of service?",
+                "Good to see you, what can I help you with?",
+                "Hi there, what brings you to me?",
+                "I'm here to answer your questions, what would you like to know?",
+                "How may I be of assistance to you today?",
+                "Hi, what can I do for you today?",
+                "What can I help you with today?",
+                "I'm here to chat with you, what would you like to talk about?",
+                "How may I assist you in solving your problem?",
+                "I'm here to assist you, what can I do for you today?",
+                "Hi, how can I make your day better?",
+                "What can I do to assist you today?",
+                "I'm here to listen to you, what can I help you with?",
+                "Hi there, how may I assist you with your inquiry?",
+                "I'm here to answer your questions, what would you like to know",
+                "What can I help you with today?",
+                "I'm here to make your life easier, how can I assist you?",
+                "How can I help you today?",
+                "I'm here to make things easier for you, what can I do for you?",
+                "Hi, how can I assist you today?",
+                "What's on your mind, how may I assist you today?",
+                "How may I assist you in resolving your issue?",
+                "I'm here to assist you, what can I do for you today?",
+                "Hi there, what can I help you with?",
+                "How may I be of service to you today?",
+                "I'm here to assist you with your needs, what can I do for you?",
+                "How can I make your day better today?",
+                "I'm here to make things easier for you, what can I help you with?",
+                "Hi there, how may I assist you in solving your problem?",
+                "What can I help you with today",
+                "I'm here to help you out, what can I do for you?",
+                "How may I be of assistance today?",
+                "I'm here to provide answers to your questions, what would you like to know?",
+                "Hi, how can I help you today?",
+                "How may I assist you in achieving your trekking goals?"
+            ],
+            "context_set": "greeting"
+        },
+        {
+            "tag": "greeting1",
+            "patterns": [
+                "hi how are you",
+                "hai,hw r u",
+                "how r u",
+                "how are u",
+                "hru",
+                "hw are u",
+                "kaise ho",
+                "hengidiya",
+                "hello how are you",
+                "How are you doing",
+                "How's your day going",
+                "How's life treating you",
+                "How's everything"
+            ],
+            "responses": [
+                "Hello i am good ,how can i help you?",
+                "I am good,how may i help you?",
+                "I am good,what can i do for you?",
+                "Good, thank you for asking,how can i help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "Thank You",
+                "Talk to you later",
+                "Ttyl",
+                "I got to go",
+                "gtg",
+                "Goodbye!",
+                "See you later!",
+                "Bye-bye!",
+                "Adios!",
+                "Later!",
+                "Catch you later!",
+                "Talk to you soon!",
+                "Until next time!",
+                "Take care!",
+                "Peace out!",
+                "See ya!",
+                "Have a good one!",
+                "So long!",
+                "Farewell!",
+                "Bye for now!",
+                "It's been great chatting with you!",
+                "Have a nice day!",
+                "Have a great weekend!",
+                "Stay safe!",
+                "Have a wonderful day!",
+                "It was nice talking to you!",
+                "Talk to you later",
+                " I'll see you around!",
+                "Goodnight",
+                "Take it easy!",
+                "Thanks for the chat!",
+                "Have a splendid day!",
+                "Enjoy the rest of your day!",
+                "Have a productive day!",
+                "I'll be back later!",
+                "All the best!",
+                "Bye, bot!",
+                "Have a pleasant evening!",
+                "Cheers!",
+                "Happy chatting!",
+                "Have a fabulous day!",
+                "Keep up the good work!",
+                "Have a good one, chatbot!",
+                "Until we meet again!",
+                "Have a restful evening!",
+                "Have a lovely day!",
+                "It's been a pleasure talking to you!",
+                "Wishing you all the best!",
+                "Take care, chatbot!",
+                "Have a safe trip!",
+                "See you on the flip side!",
+                "Good luck with everything!",
+                "See you soon!",
+                "Have a great day ahead!",
+                "Until next time,see you",
+                "i want to go",
+                "i want to leave",
+                "i want to quit",
+                "i want to exit",
+                "i want to end",
+                "i want to stop",
+                "i want to close",
+                "i want to finish",
+                "i need to go",
+                "i need to leave",
+                "i need to quit",
+                "i need to exit",
+                "i need to end",
+                "i need to stop",
+                "i need to close",
+                "i need to finish",
+                "i have to go",
+                "i have to leave",
+                "i have to quit",
+                "i have to exit",
+                "i have to end",
+                "i have to stop",
+                "i have to close",
+                "i have to finish",
+                "i have to leave",
+                "i have to quit"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "bye!",
+                "Come back soon"
+            ],
+            "context_set": "ending conversation"
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "what are the name of your developers",
+                "what are the name of your creators",
+                "who created you",
+                "your developers",
+                "your creators",
+                "who are your developers",
+                "developers",
+                "you are made by",
+                "you are made by whom",
+                "who created you",
+                "who create you",
+                "who created u",
+                "creators",
+                "who made you",
+                "who designed you",
+                "Who are responsible for your existence?",
+                "Who brought you to life?",
+                "Who invented you?",
+                "Who programmed you?",
+                "Who built you?",
+                "Who are the mastermind behind your creation?",
+                "Who are behind your development?",
+                "Who are the brains behind you?",
+                "Who are the genius that made you?",
+                "Who are the people that created you?",
+                "Who are your inventors?",
+                "Who is your maker?",
+                "Who are your designers?",
+                "Who are your developers?",
+                "Who are your architects?",
+                "Who is the mind behind your creation?"
+            ],
+            "responses": [
+                "I was created by Chaitanya Gholap. A Software Devloper Studied from Vellore Institute Of Technology."
+            ],
+            "context_set": "creators,developers"
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "yes"
+            ],
+            "responses": [
+                "well...be more specific so that i can help you."
+            ]
+        },
+        {
+            "tag": "gender",
+            "patterns": [
+                "what is your gender",
+                "whats ur  gender",
+                "are you a boy",
+                "are u a boy",
+                "are you a girl",
+                "are u a girl",
+                "gender?",
+                "boy?",
+                "girl",
+                "ur gender",
+                "your gender",
+                "how are u identified as",
+                "hw r u identified as",
+                "what about  ur gender",
+                "what  about your gender"
+            ],
+            "responses": [
+                "Well! I am an AI, i dont have any gender."
+            ]
+        },
+        {
+            "tag": "common_ailments",
+            "patterns": [
+                "I am having fever, cold, and feeling weak",
+                "What are the home remedies for a cold and fever?",
+                "I feel tired and have a high temperature, what should I do?",
+                "What causes fever and weakness?",
+                "I have a sore throat and runny nose, any suggestions?",
+                "How can I cure a headache and body pain?",
+                "I am coughing a lot and feel weak, what can help?",
+                "What are some remedies for a fever?",
+                "Why do I get cold and fever frequently?",
+                "I am sneezing and have a mild fever, what should I do?",
+                "What are the reasons for body weakness and cold symptoms?",
+                "Any home remedies for flu-like symptoms?"
+            ],
+            "responses": [
+                "Fever, cold, and weakness could be caused by a viral infection, seasonal flu, or even mild dehydration. Here are some home remedies and suggestions:\n\n1. **Stay Hydrated**: Drink plenty of water, warm soups, or herbal teas like ginger or tulsi tea.\n2. **Rest Well**: Your body needs rest to recover, so avoid strenuous activities.\n3. **For Cold**: Use steam inhalation or drink warm water with honey and lemon.\n4. **For Fever**: Place a cold, damp cloth on your forehead to reduce temperature.\n5. **Boost Immunity**: Include foods rich in Vitamin C like oranges, lemons, or amla.\n\nHowever, if symptoms persist for more than 2-3 days or worsen, consult a doctor immediately."
+            ],
+            "context_set": "health,remedies"
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i taking to",
+                "what are you",
+                "How may I address you",
+                "Can you introduce yourself",
+                "Tell me about yourself",
+                "What is your real name?",
+                "What is your real name please?",
+                "What's your real name?",
+                "Tell me your real name?",
+                "Your real name?",
+                "Your real name please?",
+                "Your real name please?",
+                "Who are you"
+            ],
+            "responses": [
+                "You can call me MediBot.",
+                "I'm MediBot",
+                "I am a MediBot",
+                "I am your helper,MediBot",
+                "hello,you can call me MediBot,how can i help you?",
+                "hello,my name is MediBot,what can i do for you?",
+                "hello,my name is MediBot,how may i help you?",
+                "hello,i am MediBot,how may i help you?",
+                "My name is MediBot",
+                "MediBot",
+                "My real name is MediBot"
+            ],
+            "context_set": "tags, name,"
+        },
+        {
+            "tag": "cold_and_flu",
+            "patterns": [
+                "I have a runny nose and sneezing a lot",
+                "What can I do for flu symptoms?",
+                "I have a cold, what should I do?",
+                "How can I treat a sore throat and cough?",
+                "What are the home remedies for cold and flu?",
+                "Why do I get frequent colds?",
+                "I feel congested and have a mild fever, any suggestions?"
+            ],
+            "responses": [
+                "Cold and flu are usually caused by viral infections. Here are some remedies:\n\n1. **Stay Hydrated**: Drink warm fluids like soups and herbal teas.\n2. **Relieve Congestion**: Use steam inhalation or saline nasal drops.\n3. **Soothe Throat**: Gargle with warm salt water or drink honey with warm water.\n4. **Rest**: Get plenty of sleep to support your immune system.\n\nIf symptoms persist or worsen, consult a healthcare provider."
+            ],
+            "context_set": "health,remedies"
+        },
+        {
+            "tag": "fever",
+            "patterns": [
+                "I have a fever and feel tired",
+                "How can I treat a mild fever?",
+                "What causes fever?",
+                "What should I do if I have a fever?",
+                "Are there home remedies for reducing fever?",
+                "I feel warm and have body aches, any advice?"
+            ],
+            "responses": [
+                "Fever can be a sign of your body fighting an infection. Here\u00e2\u20ac\u2122s what you can do:\n\n1. **Stay Cool**: Use a cold compress on your forehead.\n2. **Drink Fluids**: Stay hydrated with water, electrolyte drinks, or clear broths.\n3. **Rest**: Avoid exertion and let your body recover.\n4. **Over-the-Counter Medicine**: Take acetaminophen or ibuprofen as recommended for high fever.\n\nIf the fever is above 102\u00c2\u00b0F (38.9\u00c2\u00b0C) or lasts more than 3 days, seek medical attention."
+            ],
+            "context_set": "health,fever"
+        },
+        {
+            "tag": "stomach_issues",
+            "patterns": [
+                "I have a stomach ache and feel nauseous",
+                "What can I do for indigestion?",
+                "How can I treat food poisoning?",
+                "I feel bloated and have a stomach ache, any remedies?",
+                "What are the home remedies for diarrhea?",
+                "Why do I get frequent acidity or gas?"
+            ],
+            "responses": [
+                "Stomach issues can arise from overeating, food poisoning, or infections. Here are some remedies:\n\n1. **For Indigestion or Gas**: Drink ginger tea or chew fennel seeds.\n2. **For Diarrhea**: Stay hydrated with ORS or coconut water.\n3. **For Bloating**: Avoid carbonated drinks and eat smaller meals.\n4. **Rest Your Stomach**: Avoid spicy and oily foods until symptoms subside.\n\nConsult a doctor if symptoms are severe or last more than 48 hours."
+            ],
+            "context_set": "health,stomach"
+        },
+        {
+            "tag": "headache",
+            "patterns": [
+                "I have a headache, what should I do?",
+                "What are the causes of headaches?",
+                "How can I relieve a headache naturally?",
+                "What are some home remedies for headaches?",
+                "I feel a lot of pain in my head, any tips?"
+            ],
+            "responses": [
+                "Headaches can be caused by stress, dehydration, or poor sleep. Here are some remedies:\n\n1. **Stay Hydrated**: Drink plenty of water.\n2. **Rest**: Sleep in a quiet, dark room.\n3. **Compress**: Apply a cold or warm compress to your forehead.\n4. **Caffeine**: A small amount of coffee may help relieve tension headaches.\n\nIf headaches are frequent or very severe, consult a healthcare professional."
+            ],
+            "context_set": "health,headache"
+        },
+        {
+            "tag": "cough",
+            "patterns": [
+                "I have a dry cough, what can I do?",
+                "What causes coughing?",
+                "How can I stop coughing?",
+                "What are the home remedies for a cough?",
+                "I am coughing a lot, any advice?"
+            ],
+            "responses": [
+                "Coughing can be caused by irritants, allergies, or infections. Here are some remedies:\n\n1. **Stay Hydrated**: Drink warm fluids like honey with warm water or herbal teas.\n2. **Steam Inhalation**: Helps loosen mucus in case of chest congestion.\n3. **Avoid Irritants**: Stay away from smoke, dust, or cold air.\n4. **Gargle**: Use warm salt water to soothe your throat.\n\nIf the cough persists for more than a week or is accompanied by severe symptoms, consult a doctor."
+            ],
+            "context_set": "health,cough"
+        },
+        {
+            "tag": "skin_rashes",
+            "patterns": [
+                "I have a skin rash, what can I do?",
+                "What causes itching and redness on the skin?",
+                "How can I treat skin rashes naturally?",
+                "What are the home remedies for skin allergies?",
+                "I have irritation on my skin, any tips?"
+            ],
+            "responses": [
+                "Skin rashes can be caused by allergies, heat, or irritation. Here are some remedies:\n\n1. **Cool Compress**: Apply a damp, cool cloth to the affected area.\n2. **Aloe Vera Gel**: Helps soothe irritated skin.\n3. **Oatmeal Bath**: Soak in a bath with colloidal oatmeal for relief.\n4. **Avoid Irritants**: Stay away from harsh soaps or lotions.\n\nIf the rash spreads, is painful, or shows signs of infection, consult a dermatologist."
+            ],
+            "context_set": "health,skin"
+        },
+        {
+            "tag": "fatigue",
+            "patterns": [
+                "I feel very tired all the time, what should I do?",
+                "Why do I feel weak and fatigued?",
+                "What causes constant tiredness?",
+                "How can I boost my energy naturally?",
+                "What are some remedies for feeling weak?"
+            ],
+            "responses": [
+                "Fatigue can result from stress, poor diet, or lack of sleep. Here\u00e2\u20ac\u2122s what you can do:\n\n1. **Eat Balanced Meals**: Include protein, healthy fats, and complex carbs in your diet.\n2. **Stay Active**: Light exercise can improve energy levels.\n3. **Hydrate**: Dehydration can cause tiredness, so drink plenty of water.\n4. **Rest**: Get 7-8 hours of quality sleep daily.\n\nIf fatigue persists despite these remedies, consult a doctor for a thorough checkup."
+            ],
+            "context_set": "health,fatigue"
+        },
+        {
+            "tag": "body_pain",
+            "patterns": [
+                "I have body pain, what can I do?",
+                "Why do I feel pain all over my body?",
+                "What causes body aches?",
+                "How can I treat body pain naturally?",
+                "I feel sore and tired, any remedies?"
+            ],
+            "responses": [
+                "Body pain can result from overexertion, dehydration, or mild infections. Try these remedies:\n\n1. **Rest**: Take breaks and allow your body to recover.\n2. **Stay Hydrated**: Drink plenty of fluids, especially water.\n3. **Warm Compress**: Apply a heating pad or take a warm bath to relax muscles.\n4. **Gentle Exercise**: Stretching or light yoga can help relieve tension.\n\nIf the pain persists for more than a few days, consult a healthcare provider."
+            ],
+            "context_set": "health,body_pain"
+        },
+        {
+            "tag": "soreness",
+            "patterns": [
+                "Why do my muscles feel sore?",
+                "What can I do for soreness in my legs?",
+                "How can I recover from muscle soreness?",
+                "I have soreness after exercise, any remedies?",
+                "What causes soreness in the body?"
+            ],
+            "responses": [
+                "Soreness is often due to overuse of muscles or physical exertion. Here\u00e2\u20ac\u2122s how to alleviate it:\n\n1. **Stretch**: Gentle stretching helps reduce muscle tightness.\n2. **Cold or Warm Compress**: Use ice packs to reduce inflammation or heat to relax muscles.\n3. **Massage**: Light massage can help improve blood circulation.\n4. **Hydrate and Rest**: Proper hydration and rest are essential for recovery.\n\nIf soreness is severe or doesn\u00e2\u20ac\u2122t improve, consult a doctor."
+            ],
+            "context_set": "health,soreness"
+        },
+        {
+            "tag": "pimples",
+            "patterns": [
+                "I have pimples on my face, what should I do?",
+                "How can I treat acne naturally?",
+                "What are the causes of pimples?",
+                "I keep getting pimples, any remedies?",
+                "What can I do to reduce pimples?"
+            ],
+            "responses": [
+                "Pimples or acne can result from oily skin, hormonal changes, or clogged pores. Here\u00e2\u20ac\u2122s how to manage them:\n\n1. **Cleanse Regularly**: Wash your face twice a day with a mild cleanser.\n2. **Avoid Touching Your Face**: Keep your hands away to prevent irritation.\n3. **Use Natural Remedies**: Apply tea tree oil or aloe vera gel to the affected areas.\n4. **Stay Hydrated**: Drink water to keep your skin healthy.\n\nIf acne persists or worsens, consult a dermatologist for targeted treatment."
+            ],
+            "context_set": "health,pimples"
+        },
+        {
+            "tag": "hair_loss",
+            "patterns": [
+                "I am losing a lot of hair, what should I do?",
+                "What causes hair loss?",
+                "How can I stop hair fall?",
+                "Are there remedies for hair loss?",
+                "I have thinning hair, any advice?"
+            ],
+            "responses": [
+                "Hair loss can be caused by stress, poor nutrition, or hormonal changes. Try these remedies:\n\n1. **Eat a Balanced Diet**: Include protein, iron, and vitamins in your meals.\n2. **Avoid Harsh Products**: Use mild shampoos and conditioners.\n3. **Scalp Massage**: Massaging with coconut or castor oil can improve blood flow.\n4. **Stay Hydrated**: Drink plenty of water for healthy hair.\n\nIf hair loss continues, consider consulting a dermatologist or a trichologist."
+            ],
+            "context_set": "health,hair_loss"
+        },
+        {
+            "tag": "dandruff",
+            "patterns": [
+                "I have dandruff, what should I do?",
+                "What causes dandruff?",
+                "How can I treat dandruff naturally?",
+                "I keep getting flakes in my hair, any remedies?",
+                "What are the best remedies for dandruff?"
+            ],
+            "responses": [
+                "Dandruff is often caused by dry scalp or fungal infections. Here\u00e2\u20ac\u2122s how to manage it:\n\n1. **Use Anti-Dandruff Shampoo**: Look for shampoos with zinc pyrithione or ketoconazole.\n2. **Natural Remedies**: Apply coconut oil or aloe vera gel to the scalp.\n3. **Avoid Harsh Chemicals**: Choose mild hair care products.\n4. **Stay Hydrated**: Drink water to keep your scalp moisturized.\n\nIf dandruff persists, consult a dermatologist for specialized treatment."
+            ],
+            "context_set": "health,dandruff"
+        },
+        {
+            "tag": "eye_pain",
+            "patterns": [
+                "I have pain in my eyes, what should I do?",
+                "What causes eye pain?",
+                "How can I relieve eye strain?",
+                "I feel discomfort in my eyes, any remedies?",
+                "Why do my eyes hurt?"
+            ],
+            "responses": [
+                "Eye pain can result from strain, dryness, or allergies. Try these remedies:\n\n1. **Rest Your Eyes**: Follow the 20-20-20 rule (look away every 20 minutes for 20 seconds).\n2. **Use Eye Drops**: Artificial tears can help relieve dryness.\n3. **Cold Compress**: Apply a cool, damp cloth to your eyes.\n4. **Stay Hydrated**: Drink water to prevent dryness.\n\nIf the pain persists or your vision is affected, see an eye specialist."
+            ],
+            "context_set": "health,eye_pain"
+        },
+        {
+            "tag": "ear_pain",
+            "patterns": [
+                "I have ear pain, what can I do?",
+                "What causes pain in the ears?",
+                "How can I treat an earache?",
+                "I feel discomfort in my ear, any remedies?",
+                "Why do my ears hurt?"
+            ],
+            "responses": [
+                "Ear pain can result from infections or wax buildup. Try these remedies:\n\n1. **Warm Compress**: Place a warm cloth over the affected ear.\n2. **Over-the-Counter Drops**: Use ear drops for pain relief or wax removal.\n3. **Avoid Scratching**: Do not insert objects into your ear.\n4. **Stay Upright**: Keep your head elevated to reduce pressure.\n\nIf the pain is severe or persistent, consult an ENT specialist."
+            ],
+            "context_set": "health,ear_pain"
+        },
+        {
+            "tag": "wrist_pain",
+            "patterns": [
+                "I have pain in my wrist, what should I do?",
+                "What causes wrist pain?",
+                "How can I relieve wrist discomfort?",
+                "Why does my wrist hurt?",
+                "What are the remedies for wrist pain?"
+            ],
+            "responses": [
+                "Wrist pain is often caused by strain, repetitive motion, or injury. Try these remedies:\n\n1. **Rest**: Avoid activities that strain your wrist.\n2. **Cold Compress**: Apply ice to reduce swelling.\n3. **Stretch**: Gentle wrist exercises can improve flexibility.\n4. **Support**: Use a wrist brace for added stability.\n\nIf the pain persists, consult an orthopedic specialist."
+            ],
+            "context_set": "health,wrist_pain"
+        },
+        {
+            "tag": "muscle_soreness",
+            "patterns": [
+                "I have sore muscles, what can I do?",
+                "What causes muscle soreness?",
+                "How can I treat sore muscles naturally?",
+                "I feel muscle pain, any remedies?",
+                "Why are my muscles sore?"
+            ],
+            "responses": [
+                "Muscle soreness is common after physical activity. Here\u00e2\u20ac\u2122s how to ease it:\n\n1. **Rest**: Allow time for recovery.\n2. **Cold or Warm Therapy**: Ice reduces swelling; heat relaxes muscles.\n3. **Stretch and Massage**: Gently stretch or massage the affected area.\n4. **Hydration**: Drink water to help muscle recovery.\n\nIf soreness persists for more than a week, consult a healthcare provider."
+            ],
+            "context_set": "health,muscle_soreness"
+        },
+        {
+            "tag": "infections",
+            "patterns": [
+                "What are the common signs of an infection?",
+                "How can I treat minor infections at home?",
+                "What causes infections?",
+                "I think I have an infection, what should I do?",
+                "What are some home remedies for infections?"
+            ],
+            "responses": [
+                "Infections are caused by bacteria, viruses, or fungi. Here are some general remedies:\n\n1. **Keep the Area Clean**: Wash with mild soap and water.\n2. **Apply Antiseptic**: Use antiseptic cream or ointment for minor cuts or wounds.\n3. **Rest and Hydrate**: Support your immune system with rest and fluids.\n4. **Monitor Symptoms**: Seek medical help if there is swelling, redness, or persistent pain.\n\nFor serious infections, consult a doctor immediately."
+            ],
+            "context_set": "health,infections"
+        },
+        {
+            "tag": "uncleanliness_infections",
+            "patterns": [
+                "What infections are caused by poor hygiene?",
+                "How does uncleanliness lead to infections?",
+                "What diseases are caused due to lack of cleanliness?",
+                "How can I prevent infections caused by poor hygiene?",
+                "What are the symptoms of infections caused by uncleanliness?"
+            ],
+            "responses": [
+                "Infections caused by poor hygiene include:\n\n1. **Skin Infections**: Bacterial or fungal infections such as ringworm or cellulitis.\n2. **Gastrointestinal Infections**: Diarrhea, cholera, or typhoid from contaminated food or water.\n3. **Respiratory Infections**: Cold and flu caused by poor air quality or unclean surroundings.\n4. **Eye Infections**: Conjunctivitis or pink eye due to touching eyes with dirty hands.\n\n**Prevention Tips**:\n- Maintain personal hygiene (regular bathing, hand washing).\n- Keep your surroundings clean.\n- Avoid sharing personal items like towels.\n- Wash fruits and vegetables before eating."
+            ],
+            "context_set": "health,uncleanliness_infections"
+        },
+        {
+            "tag": "acid_reflux",
+            "patterns": [
+                "Home remedies for acid reflux",
+                "How to fix heartburn naturally",
+                "What to do for acid reflux at night",
+                "Ways to ease GERD at home"
+            ],
+            "responses": [
+                "Acid reflux (GERD) is when stomach acid backs up into the esophagus, causing burning chest pain, regurgitation, cough or sore throat.\n",
+                "\u00e2\u20ac\u00a2 Eat smaller meals and avoid lying down right after eating; wait 2\u00e2\u20ac\u201c3 hours before bed:contentReference[oaicite:0]{index=0}.\n",
+                "\u00e2\u20ac\u00a2 Elevate the head of your bed 10\u00e2\u20ac\u201c20\u00e2\u20ac\u00afcm to use gravity for acid control:contentReference[oaicite:1]{index=1}.\n",
+                "\u00e2\u20ac\u00a2 Avoid trigger foods (spicy, fatty, chocolate, caffeine, alcohol, carbonated drinks) and keep a food journal:contentReference[oaicite:2]{index=2}.\n",
+                "\u00e2\u20ac\u00a2 Use natural remedies like apple cider vinegar, aloe vera juice, bananas, ginger, fennel tea, and chewing gum for saliva flow:contentReference[oaicite:3]{index=3}.\n",
+                " If acid reflux persists >3\u00e2\u20ac\u00afweeks, is severe, or causes difficulty swallowing, consult a healthcare provider."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "Natural remedies for migraine",
+                "How to stop migraine at home",
+                "Home cure for migraine pain",
+                "Migraine relief without meds"
+            ],
+            "responses": [
+                "Migraine is a neurological condition marked by intense headache, nausea, vomiting, and sensitivity to light/sound.\n",
+                "\u00e2\u20ac\u00a2 Rest in a dark, quiet room and apply hot or cold compress to head/neck:contentReference[oaicite:4]{index=4}.\n",
+                "\u00e2\u20ac\u00a2 Try lavender or peppermint essential oils, ginger tea, magnesium, CoQ10, and acupuncture or feverfew supplements:contentReference[oaicite:5]{index=5}.\n",
+                "\u00e2\u20ac\u00a2 Avoid trigger foods (aged cheese, deli meats, chocolate, red wine, processed foods); log food triggers:contentReference[oaicite:6]{index=6}.\n",
+                "\u00e2\u20ac\u00a2 Practice relaxation techniques: yoga, meditation, biofeedback, regular sleep and hydration schedule:contentReference[oaicite:7]{index=7}.\n",
+                " If migraines occur >15 days/month, last >72\u00e2\u20ac\u00afh, or have stroke-like symptoms, seek professional evaluation."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": [
+                "Home remedies for arthritis pain",
+                "Natural relief for joint pain",
+                "How to ease arthritis at home",
+                "Joint stiffness remedies"
+            ],
+            "responses": [
+                "Arthritis causes inflammation, joint pain, stiffness commonly in knees, hips, hands and spine.\n",
+                "\u00e2\u20ac\u00a2 Use heat and cold packs alternately to reduce pain and swelling:contentReference[oaicite:8]{index=8}.\n",
+                "\u00e2\u20ac\u00a2 Perform gentle low-impact exercise (walking, tai chi, yoga, swimming) to maintain flexibility and strength:contentReference[oaicite:9]{index=9}.\n",
+                "\u00e2\u20ac\u00a2 Try topical natural anti-inflammatories: aloe vera, turmeric, ginger, green tea, eucalyptus; consider acupuncture or massage:contentReference[oaicite:10]{index=10}.\n",
+                "\u00e2\u20ac\u00a2 Maintain healthy weight, use anti-inflammatory diet rich in omega-3s, avoid processed foods and alcohol:contentReference[oaicite:11]{index=11}.\n",
+                " If joint pain is severe, sudden, swollen or accompanied by fever, visit your rheumatologist."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "Home treatment for psoriasis",
+                "Natural ways to soothe psoriasis",
+                "Psoriasis remedy at home",
+                "How to reduce psoriasis flare ups"
+            ],
+            "responses": [
+                "Psoriasis is an autoimmune condition causing itchy, scaly, inflamed skin patches.\n",
+                "\u00e2\u20ac\u00a2 Moisturize daily with fragrance-free creams or oils, take lukewarm oatmeal or Epsom-bath soaks:contentReference[oaicite:12]{index=12}.\n",
+                "\u00e2\u20ac\u00a2 Apply aloe vera, apple cider vinegar, capsaicin cream, tea tree oil; consider light (UV) therapy carefully:contentReference[oaicite:13]{index=13}.\n",
+                "\u00e2\u20ac\u00a2 Follow anti-inflammatory diet: oily fish, colorful fruits/vegetables, turmeric, omega-3s; avoid alcohol, smoking, triggers:contentReference[oaicite:14]{index=14}.\n",
+                "\u00e2\u20ac\u00a2 Reduce stress via mindfulness or yoga and maintain healthy weight to limit flare triggers:contentReference[oaicite:15]{index=15}.\n",
+                " If rash is severe, widespread, bleeding or painful, consult a dermatologist for treatment guidance."
+            ]
+        },
+        {
+            "tag": "iron_deficiency_anemia",
+            "patterns": [
+                "Home remedies for anemia",
+                "How to increase iron naturally",
+                "Foods to boost hemoglobin",
+                "Anemia supplements at home"
+            ],
+            "responses": [
+                "Iron deficiency anemia causes fatigue, weakness, pale skin, shortness of breath, and dizziness.\n",
+                "\u00e2\u20ac\u00a2 Eat iron-rich foods: red meat, fish, poultry (heme iron), and beans, spinach, lentils, fortified cereals (non-heme iron) with vitamin\u00e2\u20ac\u00afC sources:contentReference[oaicite:16]{index=16}.\n",
+                "\u00e2\u20ac\u00a2 Add citrus fruits, bell peppers, broccoli to meals to boost non-heme iron absorption:contentReference[oaicite:17]{index=17}.\n",
+                "\u00e2\u20ac\u00a2 Try iron-rich snacks like prunes, mulberries, olives, pumpkin or black sesame seeds soaked overnight:contentReference[oaicite:18]{index=18}.\n",
+                "\u00e2\u20ac\u00a2 Avoid tea/coffee with meals and consider modest supplementation under medical advice; ensure folate and B\u00e2\u20ac\u2018vitamins intake:contentReference[oaicite:19]{index=19}.\n",
+                " If fatigue persists, or hemoglobin stays low despite diet changes, consult your physician for testing and treatment."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": [
+                "Home remedies for arthritis pain",
+                "How to ease joint stiffness",
+                "Natural treatment for arthritic joints",
+                "What helps arthritis at home"
+            ],
+            "responses": [
+                "Arthritis causes joint pain, stiffness, and inflammation, often worsening with movement or age.\n",
+                "\u00e2\u20ac\u00a2 Do gentle exercises like walking, swimming, or hand stretches to maintain flexibility:contentReference[oaicite:0]{index=0}.\n",
+                "\u00e2\u20ac\u00a2 Apply heat (warm baths, heating pads) before activity and ice after to reduce swelling:contentReference[oaicite:1]{index=1}.\n",
+                "\u00e2\u20ac\u00a2 Maintain a healthy weight to reduce stress on weight-bearing joints:contentReference[oaicite:2]{index=2}.\n",
+                "\u00e2\u20ac\u00a2 Use topical NSAID gels or creams as needed for localized relief:contentReference[oaicite:3]{index=3}.\n",
+                " If joint pain severely limits activity or is accompanied by swelling and warmth, consult a rheumatologist."
+            ]
+        },
+        {
+            "tag": "acid_reflux",
+            "patterns": [
+                "Ways to reduce heartburn",
+                "Natural relief for acid reflux",
+                "Home remedy for GERD",
+                "How to ease heartburn at home"
+            ],
+            "responses": [
+                "Acid reflux (GERD) causes burning chest sensation, regurgitation, and sometimes cough or sore throat:contentReference[oaicite:4]{index=4}.\n",
+                "\u00e2\u20ac\u00a2 Elevate the head of your bed and avoid lying down for 2\u00e2\u20ac\u201c3\u00e2\u20ac\u00afhours after meals:contentReference[oaicite:5]{index=5}.\n",
+                "\u00e2\u20ac\u00a2 Eat smaller, frequent meals and avoid trigger foods like caffeine, alcohol, spicy and fatty foods:contentReference[oaicite:6]{index=6}.\n",
+                "\u00e2\u20ac\u00a2 Drink herbal teas or coconut water; try fiber supplements like psyllium husk:contentReference[oaicite:7]{index=7}.\n",
+                "\u00e2\u20ac\u00a2 Lose excess weight and quit smoking to reduce pressure on the stomach:contentReference[oaicite:8]{index=8}.\n",
+                " If heartburn occurs >2x/week or includes chest pain and difficulty swallowing, see a gastroenterologist."
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "Natural remedies for depression",
+                "How to beat low mood",
+                "Home treatment for depression",
+                "Natural treatment options for depression"
+            ],
+            "responses": [
+                "Depression can cause persistent sadness, loss of interest, changes in sleep/appetite, and low energy:contentReference[oaicite:9]{index=9}.\n",
+                "\u00e2\u20ac\u00a2 Engage in regular aerobic exercise like walking, swimming, or cycling:contentReference[oaicite:10]{index=10}.\n",
+                "\u00e2\u20ac\u00a2 Practice meditation, mindfulness, yoga, or PMR daily:contentReference[oaicite:11]{index=11}.\n",
+                "\u00e2\u20ac\u00a2 Maintain a Mediterranean-style diet rich in omega-3s, fruits, vegetables, and fermented foods:contentReference[oaicite:12]{index=12}.\n",
+                "\u00e2\u20ac\u00a2 Consider herbal supports like saffron, chamomile, lavender, or St. John's wort (with medical supervision):contentReference[oaicite:13]{index=13}.\n",
+                " If depressed mood lasts >2 weeks or includes thoughts of self-harm, seek mental health support immediately."
+            ]
+        },
+        {
+            "tag": "heartburn",
+            "patterns": [
+                "Home tricks for heartburn",
+                "Acid reflux relief at home",
+                "What helps heartburn naturally",
+                "How to ease heartburn after eating"
+            ],
+            "responses": [
+                "Heartburn is a burning chest sensation caused by stomach acid rising into the esophagus:contentReference[oaicite:14]{index=14}.\n",
+                "\u00e2\u20ac\u00a2 Take a teaspoon of baking soda in water for quick neutralization:contentReference[oaicite:15]{index=15}.\n",
+                "\u00e2\u20ac\u00a2 Sip diluted apple cider vinegar (1 tsp in water) to balance stomach acids:contentReference[oaicite:16]{index=16}.\n",
+                "\u00e2\u20ac\u00a2 Drink herbal teas like chamomile or ginger and stay upright after meals:contentReference[oaicite:17]{index=17}.\n",
+                "\u00e2\u20ac\u00a2 Chew non\u00e2\u20ac\u2018mint gum after meals to increase saliva and acid clearance:contentReference[oaicite:18]{index=18}.\n",
+                "If heartburn is frequent, painful, or accompanied by weight loss or anemia, consult a doctor."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "Migraine relief at home",
+                "Natural migraine treatment",
+                "Help for migraine headache",
+                "Home remedies for migraine pain"
+            ],
+            "responses": [
+                "Migraine causes intense, throbbing head pain often accompanied by sensitivity to light, sound, and nausea:contentReference[oaicite:19]{index=19}.\n",
+                "\u00e2\u20ac\u00a2 Lie down in a dark, quiet room and apply a cold compress to your head or neck:contentReference[oaicite:20]{index=20}.\n",
+                "\u00e2\u20ac\u00a2 Practice relaxation or deep-breathing techniques to reduce tension:contentReference[oaicite:21]{index=21}.\n",
+                "\u00e2\u20ac\u00a2 Small amounts of caffeine early in a migraine can reduce pain:contentReference[oaicite:22]{index=22}.\n",
+                "\u00e2\u20ac\u00a2 Stay hydrated and consider magnesium or riboflavin supplements with guidance:contentReference[oaicite:23]{index=23}.\n",
+                " If migraines are frequent, debilitating, or accompanied by neurological symptoms, consult a neurologist."
+            ]
+        },
+        {
+            "tag": "irritable_bowel_syndrome",
+            "patterns": [
+                "Home remedies for IBS symptoms",
+                "How to treat IBS naturally",
+                "Relief for upset gut",
+                "Natural remedies for IBS cramps"
+            ],
+            "responses": [
+                "Irritable Bowel Syndrome (IBS) causes stomach cramps, bloating, gas, diarrhea, or constipation.\n",
+                "\u00e2\u20ac\u00a2 Follow a low-FODMAP diet and keep a food symptom diary:contentReference[oaicite:24]{index=24}.\n",
+                "\u00e2\u20ac\u00a2 Drink peppermint tea or use enteric-coated peppermint oil capsules:contentReference[oaicite:25]{index=25}.\n",
+                "\u00e2\u20ac\u00a2 Eat probiotic-rich foods like yogurt, kimchi, or kefir to balance gut flora:contentReference[oaicite:26]{index=26}.\n",
+                "\u00e2\u20ac\u00a2 Engage in regular exercise and stress-reduction like yoga or meditation:contentReference[oaicite:27]{index=27}.\n",
+                " If you notice blood in stool, unexplained weight loss, or severe pain, consult a gastroenterologist."
+            ]
+        },
+        {
+            "tag": "eczema",
+            "patterns": [
+                "Itchy skin rash remedies",
+                "Home remedy for eczema flare",
+                "How to relieve eczema at home",
+                "Natural eczema treatment"
+            ],
+            "responses": [
+                "Eczema causes dry, itchy, inflamed skin often triggered by allergens or stress.\n",
+                "\u00e2\u20ac\u00a2 Apply fragrance\u00e2\u20ac\u2018free moisturizers or coconut oil immediately after bathing:contentReference[oaicite:28]{index=28}.\n",
+                "\u00e2\u20ac\u00a2 Take lukewarm oatmeal baths to soothe itching:contentReference[oaicite:29]{index=29}.\n",
+                "\u00e2\u20ac\u00a2 Use topical aloe vera or calendula extracts to calm inflamed skin:contentReference[oaicite:30]{index=30}.\n",
+                "\u00e2\u20ac\u00a2 Avoid harsh soaps, detergents, and stress triggers; opt for gentle skin care:contentReference[oaicite:31]{index=31}.\n",
+                " If skin becomes infected, widespread, or bleeding, seek dermatology care."
+            ]
+        },
+        {
+            "tag": "urinary_tract_infection",
+            "patterns": [
+                "Home remedy for UTI",
+                "Natural treatment for urinary infection",
+                "UTI what helps at home",
+                "How to relieve UTI pain naturally"
+            ],
+            "responses": [
+                "A urinary tract infection causes burning during urination, frequent urges, cloudy urine and pelvic pain:contentReference[oaicite:32]{index=32}.\n",
+                "\u00e2\u20ac\u00a2 Drink plenty of water to flush bacteria from your urinary tract. Urinate frequently:contentReference[oaicite:33]{index=33}.\n",
+                "\u00e2\u20ac\u00a2 Sip unsweetened cranberry juice or take cranberry supplements:contentReference[oaicite:34]{index=34}.\n",
+                "\u00e2\u20ac\u00a2 Avoid caffeine, alcohol, and spicy foods that may irritate the bladder:contentReference[oaicite:35]{index=35}.\n",
+                "\u00e2\u20ac\u00a2 Use a warm compress on your lower abdomen to ease discomfort:contentReference[oaicite:36]{index=36}.\n",
+                " If you experience high fever, blood in urine, or back pain, seek immediate medical attention."
+            ]
+        },
+        {
+            "tag": "gout",
+            "patterns": [
+                "Home treatment for gout pain",
+                "How to relieve gout flare-up",
+                "Natural gout remedies",
+                "Big toe gout relief"
+            ],
+            "responses": [
+                "Gout is a type of arthritis causing sudden, severe joint pain and swelling due to uric acid crystal buildup:contentReference[oaicite:37]{index=37}.\n",
+                "\u00e2\u20ac\u00a2 Drink plenty of water to help excrete uric acid:contentReference[oaicite:38]{index=38}.\n",
+                "\u00e2\u20ac\u00a2 Apply ice to the inflamed joint and elevate it to reduce swelling:contentReference[oaicite:39]{index=39}.\n",
+                "\u00e2\u20ac\u00a2 Avoid purine-rich foods (red meat, anchovies), alcohol, and sugary drinks:contentReference[oaicite:40]{index=40}.\n",
+                "\u00e2\u20ac\u00a2 Maintain a healthy body weight and exercise gently to support joint health:contentReference[oaicite:41]{index=41}.\n",
+                " If pain is extreme or involves multiple joints, see your doctor for treatment."
+            ]
+        },
+        {
+            "tag": "eczema",
+            "patterns": [
+                "Ways to relieve eczema",
+                "Home remedies for itchy rash",
+                "I have dry, inflamed skin patches",
+                "Natural treatment for eczema flare-up"
+            ],
+            "responses": [
+                "Eczema causes red, itchy, dry skin and can flare up due to allergens or stress.\n",
+                "\u00e2\u20ac\u00a2 Moisturize frequently with fragrance\u00e2\u20ac\u2018free emollients or coconut oil right after bathing.\n",
+                "\u00e2\u20ac\u00a2 Apply lukewarm oatmeal baths to soothe irritation.\n",
+                "\u00e2\u20ac\u00a2 Use topical aloe vera or calendula for calming inflammation.\n",
+                "\u00e2\u20ac\u00a2 Identify and avoid potential triggers like harsh soaps, heat, or stress.\n",
+                " If rash becomes infected, widespread, or unresponsive, consult a dermatologist."
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "How to reduce anxiety naturally",
+                "Home treatment for anxiety",
+                "Feeling anxious frequently",
+                "Natural anxiety relief techniques"
+            ],
+            "responses": [
+                "Anxiety can present as excessive worry, restlessness, or physical symptoms like a racing heart.\n",
+                "\u00e2\u20ac\u00a2 Practice deep-breathing exercises, progressive muscle relaxation, or mindfulness.\n",
+                "\u00e2\u20ac\u00a2 Regular physical exercise, especially walking or yoga, reduces stress hormones.\n",
+                "\u00e2\u20ac\u00a2 Consider calming herbs such as chamomile tea or ashwagandha supplementation.\n",
+                "\u00e2\u20ac\u00a2 Maintain a balanced routine: sleep, limit caffeine and alcohol, and socialize.\n",
+                " If anxiety is overwhelming, persistent, or disrupting daily life, seek professional help."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "How to stop a migraine naturally",
+                "Home remedies for migraine headache",
+                "Severe pounding headache remedies",
+                "Natural relief for migraine"
+            ],
+            "responses": [
+                "Migraine often causes intense throbbing headache, sensitivity to light/sound, nausea.\n",
+                "\u00e2\u20ac\u00a2 Apply a cold compress or ice pack to forehead or neck for relief.\n",
+                "\u00e2\u20ac\u00a2 Rest in a dark, quiet room and practice relaxation techniques.\n",
+                "\u00e2\u20ac\u00a2 Try caffeine in small doses early in a migraine attack.\n",
+                "\u00e2\u20ac\u00a2 Stay hydrated and consider magnesium or riboflavin supplements.\n",
+                " If migraines are frequent, severe, or include vision changes, consult a neurologist."
+            ]
+        },
+        {
+            "tag": "bind_eye_infection",
+            "patterns": [
+                "My eyelid is red and swollen",
+                "Home remedies for blepharitis",
+                "Eyelid infection treatment",
+                "Swollen lid and crusty eyelashes"
+            ],
+            "responses": [
+                "Blepharitis is eyelid inflammation causing redness, flaking, crusting, and irritation.\n",
+                "\u00e2\u20ac\u00a2 Clean eyelids gently with warm compress and diluted baby shampoo.\n",
+                "\u00e2\u20ac\u00a2 Apply warm compresses several times daily to loosen debris.\n",
+                "\u00e2\u20ac\u00a2 Maintain eyelid hygiene by wiping off oil or debris daily.\n",
+                "\u00e2\u20ac\u00a2 Avoid eye makeup and consider omega\u00e2\u20ac\u20183 supplements to reduce inflammation.\n",
+                " If pain increases, vision changes, or discharge persists, visit an eye care professional."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "I have red flaky patches",
+                "Psoriasis natural relief",
+                "How to treat psoriasis at home",
+                "What helps psoriasis flares?"
+            ],
+            "responses": [
+                "Psoriasis causes scaly red or silvery patches, usually on elbows, knees, scalp.\n",
+                "\u00e2\u20ac\u00a2 Apply moisturizers like coconut oil or shea butter to reduce scaling.\n",
+                "\u00e2\u20ac\u00a2 Try oatmeal baths to relieve itch and inflammation.\n",
+                "\u00e2\u20ac\u00a2 Use diluted apple cider vinegar on scalp to soothe plaques.\n",
+                "\u00e2\u20ac\u00a2 Practice stress reduction with meditation or deep breathing.\n",
+                " If patches are widespread, bleed, or severely itchy, seek dermatologist evaluation."
+            ]
+        },
+        {
+            "tag": "insomnia",
+            "patterns": [
+                "I can\u00e2\u20ac\u2122t fall asleep at night",
+                "Home remedy for insomnia",
+                "How to improve sleep naturally",
+                "Natural treatment for sleeplessness"
+            ],
+            "responses": [
+                "Insomnia is difficulty falling or staying asleep, causing fatigue and irritability.\n",
+                "\u00e2\u20ac\u00a2 Establish a calming bedtime routine and consistent sleep schedule.\n",
+                "\u00e2\u20ac\u00a2 Limit screen time before bed; create a dark, quiet environment.\n",
+                "\u00e2\u20ac\u00a2 Try herbal teas like chamomile or valerian root to promote relaxation.\n",
+                "\u00e2\u20ac\u00a2 Practice light stretching or meditation before bed to reduce stress.\n",
+                " If insomnia persists for weeks or affects daytime functioning, see a sleep specialist."
+            ]
+        },
+        {
+            "tag": "anemia",
+            "patterns": [
+                "I\u00e2\u20ac\u2122m feeling constantly tired and pale",
+                "Natural remedies for anemia",
+                "Low iron home remedies",
+                "How to treat anemia naturally"
+            ],
+            "responses": [
+                "Anemia results from low red blood cells or iron, causing fatigue, pallor, and weakness.\n",
+                "\u00e2\u20ac\u00a2 Increase dietary iron: spinach, legumes, red meat, fortified cereals.\n",
+                "\u00e2\u20ac\u00a2 Add vitamin C-rich foods (oranges, bell peppers) to aid iron absorption.\n",
+                "\u00e2\u20ac\u00a2 Consider supplements if dietary intake is insufficient, after consulting a doctor.\n",
+                "\u00e2\u20ac\u00a2 Avoid tea/coffee around meals, as they can inhibit iron absorption.\n",
+                " If you experience dizziness, breathlessness, or heavy menstrual bleeding, seek medical evaluation."
+            ]
+        },
+        {
+            "tag": "varicose_veins",
+            "patterns": [
+                "Bulging veins on my legs",
+                "How to reduce varicose veins naturally",
+                "Home remedies for leg veins",
+                "Painful varicose veins treatments"
+            ],
+            "responses": [
+                "Varicose veins are enlarged, twisted veins often seen on legs, causing heaviness or aching.\n",
+                "\u00e2\u20ac\u00a2 Elevate legs above heart level periodically to improve circulation.\n",
+                "\u00e2\u20ac\u00a2 Wear compression stockings to reduce swelling and improve blood flow.\n",
+                "\u00e2\u20ac\u00a2 Walk regularly and avoid long periods of standing or sitting.\n",
+                "\u00e2\u20ac\u00a2 Include flavonoid-rich foods like berries, citrus, and leafy greens.\n",
+                " If pain, swelling, ulcers or bleeding occur, consult a vascular specialist."
+            ]
+        },
+        {
+            "tag": "back_pain",
+            "patterns": [
+                "Lower back ache after sitting",
+                "Home remedy for back pain",
+                "How to relieve back pain naturally",
+                "Remedies for sore back"
+            ],
+            "responses": [
+                "Back pain often stems from muscle strain, poor posture, or spinal issues.\n",
+                "\u00e2\u20ac\u00a2 Perform gentle stretches and core-strengthening exercises.\n",
+                "\u00e2\u20ac\u00a2 Apply heat packs or take warm baths to relax muscles.\n",
+                "\u00e2\u20ac\u00a2 Use cold packs after activity to reduce inflammation.\n",
+                "\u00e2\u20ac\u00a2 Maintain good posture and ergonomics while sitting or lifting.\n",
+                " If pain radiates down legs, causes numbness, or persists for weeks, see a spine specialist."
+            ]
+        },
+        {
+            "tag": "hemorrhoids",
+            "patterns": [
+                "Painful lump near anus",
+                "Home remedies for hemorrhoids",
+                "Natural treatment for piles",
+                "How to relieve hemorrhoid discomfort"
+            ],
+            "responses": [
+                "Hemorrhoids are swollen veins in the rectum or anus causing pain, itching, or bleeding.\n",
+                "\u00e2\u20ac\u00a2 Add fiber and fluids to soften stool and ease bowel movements.\n",
+                "\u00e2\u20ac\u00a2 Soak in warm sitz baths for 10\u00e2\u20ac\u201c15 minutes several times daily.\n",
+                "\u00e2\u20ac\u00a2 Apply witch hazel pads or cold compresses to reduce swelling.\n",
+                "\u00e2\u20ac\u00a2 Avoid prolonged sitting; incorporate gentle movement every hour.\n",
+                " If bleeding is heavy, pain severe, or lumps persist, consult a GP."
+            ]
+        },
+        {
+            "tag": "bruises",
+            "patterns": [
+                "How to heal bruises faster",
+                "Natural remedy for bruising",
+                "I have a big bruise from bumping",
+                "Home treatment for bruise"
+            ],
+            "responses": [
+                "Bruises occur when small blood vessels break under the skin due to an impact.\n",
+                "\u00e2\u20ac\u00a2 Apply a cold ice pack within 24\u00e2\u20ac\u00afhours to reduce bleeding and swelling.\n",
+                "\u00e2\u20ac\u00a2 Elevate the bruised area to decrease blood flow and swelling.\n",
+                "\u00e2\u20ac\u00a2 Use arnica-gel or vitamin K cream to support healing.\n",
+                "\u00e2\u20ac\u00a2 After 48\u00e2\u20ac\u00afh, apply warm compresses to increase circulation and speed recovery.\n",
+                " If bruising is unusually large, painful, or frequently occurs, consult your doctor."
+            ]
+        },
+        {
+            "tag": "cold_and_flu",
+            "patterns": [
+                "How to beat flu at home",
+                "Natural cold remedies",
+                "Home care for flu symptoms",
+                "Relief for sore throat and congestion"
+            ],
+            "responses": [
+                "Cold and flu cause fever, cough, sore throat, congestion, and body aches.\n",
+                "\u00e2\u20ac\u00a2 Rest and drink warm fluids (herbal teas, broths) to soothe and hydrate.\n",
+                "\u00e2\u20ac\u00a2 Use steam inhalation or humidifiers to relieve nasal congestion.\n",
+                "\u00e2\u20ac\u00a2 Gargle salt water and use honey for cough and throat irritation.\n",
+                "\u00e2\u20ac\u00a2 Boost immunity with vitamin\u00e2\u20ac\u2018rich foods like citrus, garlic, and ginger tea.\n",
+                " If breathing worsens, high fever persists, or symptoms last >10 days, seek medical care."
+            ]
+        },
+        {
+            "tag": "hallux_valgus",
+            "patterns": [
+                "Bunion pain on my foot",
+                "Home remedies for bunions",
+                "How to treat bunion naturally",
+                "Painful bump on my big toe"
+            ],
+            "responses": [
+                "Hallux valgus (bunion) causes a protruding bump at the base of the big toe and discomfort.\n",
+                "\u00e2\u20ac\u00a2 Wear wide, comfortable shoes and cushioned bunion pads.\n",
+                "\u00e2\u20ac\u00a2 Apply ice for 10\u00e2\u20ac\u201c15\u00e2\u20ac\u00afminutes to reduce inflammation after activity.\n",
+                "\u00e2\u20ac\u00a2 Perform toe-stretching and strengthening exercises daily.\n",
+                "\u00e2\u20ac\u00a2 Consider orthotic inserts to support foot alignment.\n",
+                " If pain is severe or walking is affected, consult a podiatrist for assessment."
+            ]
+        },
+        {
+            "tag": "gout",
+            "patterns": [
+                "My big toe hurts and is swollen",
+                "Natural treatment for gout flare",
+                "Home remedy for high uric acid pain",
+                "Gout attack relief at home"
+            ],
+            "responses": [
+                "Gout is sudden joint pain and swelling from uric acid crystals, often in the big toe.\n",
+                "\u00e2\u20ac\u00a2 Drink plenty of water to help flush uric acid from the body.\n",
+                "\u00e2\u20ac\u00a2 Apply ice packs to reduce inflammation during flare-ups.\n",
+                "\u00e2\u20ac\u00a2 Avoid purine-rich foods (red meat, shellfish), alcohol, and sugary drinks.\n",
+                "\u00e2\u20ac\u00a2 Elevate the affected joint and rest it until symptoms ease.\n",
+                " If pain is extreme or recurrent, consult a rheumatologist for medications."
+            ]
+        },
+        {
+            "tag": "dehydration",
+            "patterns": [
+                "I feel dizzy and very thirsty",
+                "Home remedy for dehydration",
+                "Natural way to rehydrate",
+                "I\u00e2\u20ac\u2122ve been vomiting and losing water"
+            ],
+            "responses": [
+                "Dehydration can cause thirst, dizziness, dry mouth, and dark urine.\n",
+                "\u00e2\u20ac\u00a2 Sip water frequently and add oral rehydration solution (ORS) as needed.\n",
+                "\u00e2\u20ac\u00a2 Consume hydrating fruits like watermelon or cucumbers.\n",
+                "\u00e2\u20ac\u00a2 Avoid caffeine and alcohol which can worsen dehydration.\n",
+                "\u00e2\u20ac\u00a2 Rest in a cool place with low physical activity to reduce fluid loss.\n",
+                " If symptoms worsen, include confusion, low blood pressure, or fainting, seek urgent care."
+            ]
+        },
+        {
+            "tag": "motion_sickness",
+            "patterns": [
+                "I get sick in cars",
+                "Natural remedies for motion sickness",
+                "What helps travel nausea?",
+                "Home remedy for seasickness"
+            ],
+            "responses": [
+                "Motion sickness causes dizziness, nausea, sweating while traveling.\n",
+                "\u00e2\u20ac\u00a2 Sip ginger tea or chew ginger candy before and during travel.\n",
+                "\u00e2\u20ac\u00a2 Focus on a fixed point on the horizon and get fresh air.\n",
+                "\u00e2\u20ac\u00a2 Avoid heavy meals or strong odors before traveling.\n",
+                "\u00e2\u20ac\u00a2 Use acupressure wristbands or apply pressure to Nei\u00e2\u20ac\u2018Guan point.\n",
+                " If vomiting is uncontrollable or you feel dehydrated, seek medical advice."
+            ]
+        },
+        {
+            "tag": "sinusitis",
+            "patterns": [
+                "I have sinus pressure and headache",
+                "How can I treat sinus infection at home?",
+                "Home remedies for sinusitis",
+                "Nasal congestion and facial pain"
+            ],
+            "responses": [
+                "Sinusitis (sinus infection) can cause facial pressure, congestion, and thick nasal discharge.\n",
+                "\u00e2\u20ac\u00a2 Inhale warm steam or take hot showers to moisten sinuses and ease drainage:contentReference[oaicite:1]{index=1}.\n",
+                "\u00e2\u20ac\u00a2 Use saline nasal irrigation or sprays to clear mucus:contentReference[oaicite:2]{index=2}.\n",
+                "\u00e2\u20ac\u00a2 Drink plenty of fluids and rest to support immune function:contentReference[oaicite:3]{index=3}.\n",
+                "\u00e2\u20ac\u00a2 Apply warm compresses over forehead and nose several times daily:contentReference[oaicite:4]{index=4}.\n",
+                " If symptoms persist beyond 10\u00e2\u20ac\u00afdays, include fever, or have green discharge, seek medical care."
+            ]
+        },
+        {
+            "tag": "joint_pain",
+            "patterns": [
+                "My knees hurt after walking",
+                "Natural remedies for joint ache",
+                "How to relieve arthritis pain",
+                "Home care for stiff joints"
+            ],
+            "responses": [
+                "Joint pain (arthritis or strain) can bring stiffness and discomfort.\n",
+                "\u00e2\u20ac\u00a2 Apply warm compresses or take warm baths to relax muscles :contentReference[oaicite:5]{index=5}.\n",
+                "\u00e2\u20ac\u00a2 Use cold packs to reduce swelling during flare-ups:contentReference[oaicite:6]{index=6}.\n",
+                "\u00e2\u20ac\u00a2 Engage in gentle exercise (walking, swimming, yoga) to maintain joint mobility:contentReference[oaicite:7]{index=7}.\n",
+                "\u00e2\u20ac\u00a2 Add anti-inflammatory foods or supplements like turmeric, fish oil, or ginger:contentReference[oaicite:8]{index=8}.\n",
+                " If joints are warm, swollen or limit daily life, consult a rheumatologist."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "Red scaly patches on my skin",
+                "Ways to relieve psoriasis naturally",
+                "How to treat eczema-like psoriasis",
+                "Home remedies for psoriasis flares"
+            ],
+            "responses": [
+                "Psoriasis is a chronic inflammatory skin condition causing red, scaly patches.\n",
+                "\u00e2\u20ac\u00a2 Moisturize daily with coconut oil, shea butter, or oatmeal baths to soothe skin:contentReference[oaicite:9]{index=9}.\n",
+                "\u00e2\u20ac\u00a2 Use diluted apple cider vinegar on scalp or affected areas (patch test first):contentReference[oaicite:10]{index=10}.\n",
+                "\u00e2\u20ac\u00a2 Limit inflammatory foods and follow an anti-inflammatory diet rich in omega\u00e2\u20ac\u20183s:contentReference[oaicite:11]{index=11}.\n",
+                "\u00e2\u20ac\u00a2 Reduce stress using relaxation or mindfulness techniques:contentReference[oaicite:12]{index=12}.\n",
+                " If flares spread, bleed, or severely itch, seek care from a dermatologist."
+            ]
+        },
+        {
+            "tag": "high_cholesterol",
+            "patterns": [
+                "How to lower cholesterol naturally?",
+                "Foods to reduce LDL levels",
+                "Heart healthy diet tips",
+                "Remedies for high cholesterol"
+            ],
+            "responses": [
+                "High cholesterol elevates risk of heart disease. Try these lifestyle steps:\n",
+                "\u00e2\u20ac\u00a2 Eat soluble fiber such as oats, legumes, fruits, and vegetables:contentReference[oaicite:13]{index=13}.\n",
+                "\u00e2\u20ac\u00a2 Use healthy fats like olive oil, nuts, avocados, and fatty fish:contentReference[oaicite:14]{index=14}.\n",
+                "\u00e2\u20ac\u00a2 Include plant sterols (fortified foods) or cinnamon for added benefit:contentReference[oaicite:15]{index=15}.\n",
+                "\u00e2\u20ac\u00a2 Increase physical activity, lose weight, and quit smoking:contentReference[oaicite:16]{index=16}.\n",
+                " If cholesterol remains high, consult a cardiologist\u00e2\u20ac\u201dmedications may be needed."
+            ]
+        },
+        {
+            "tag": "constipation",
+            "patterns": [
+                "I\u00e2\u20ac\u2122m not pooping regularly",
+                "Home remedy for constipation",
+                "How to relieve constipation fast",
+                "Natural ways to ease constipation"
+            ],
+            "responses": [
+                "Constipation involves hard, infrequent stools or discomfort.\n",
+                "\u00e2\u20ac\u00a2 Increase fiber gradually: fruits, whole grains, legumes:contentReference[oaicite:17]{index=17}.\n",
+                "\u00e2\u20ac\u00a2 Drink plenty of water and warm beverages, including tea or prune juice:contentReference[oaicite:18]{index=18}.\n",
+                "\u00e2\u20ac\u00a2 Exercise regularly and consider gentle abdominal massage:contentReference[oaicite:19]{index=19}.\n",
+                "\u00e2\u20ac\u00a2 Use natural bulking agents like wheat bran or psyllium if needed:contentReference[oaicite:20]{index=20}.\n",
+                " If constipation persists >3\u00e2\u20ac\u00afweeks or is accompanied by pain or blood, see your doctor."
+            ]
+        },
+        {
+            "tag": "acne",
+            "patterns": [
+                "How do I clear acne naturally?",
+                "Home remedies for pimples",
+                "What helps acne on face?",
+                "Best natural acne treatments"
+            ],
+            "responses": [
+                "Acne is caused by clogged pores, bacteria, and inflammation.\n",
+                "\u00e2\u20ac\u00a2 Apply tea tree oil or aloe vera gel to inflamed spots (patch test first).\n",
+                "\u00e2\u20ac\u00a2 Keep skin clean with gentle cleanser twice daily.\n",
+                "\u00e2\u20ac\u00a2 Use non-comedogenic moisturizers and avoid squeezing pimples.\n",
+                "\u00e2\u20ac\u00a2 Eat a balanced diet, reduce sugar and dairy intake.\n",
+                " If acne is severe or painful nodules appear, consult a dermatologist."
+            ]
+        },
+        {
+            "tag": "urinary_tract_infection",
+            "patterns": [
+                "I have burning when I pee",
+                "UTI home care tips",
+                "How to treat bladder infection naturally",
+                "Cystitis remedies at home"
+            ],
+            "responses": [
+                "UTI causes painful urination, urgency, and cloudy or strong-smelling urine.\n",
+                "\u00e2\u20ac\u00a2 Drink plenty of water to flush bacteria from urinary tract.\n",
+                "\u00e2\u20ac\u00a2 Take cranberry juice or supplements to reduce bacterial adhesion.\n",
+                "\u00e2\u20ac\u00a2 Use heat packs on lower abdomen to relieve discomfort.\n",
+                "\u00e2\u20ac\u00a2 Avoid caffeine, alcohol, and spicy foods until symptoms clear.\n",
+                " If fever, back pain, or worsening symptoms occur, consult a doctor promptly."
+            ]
+        },
+        {
+            "tag": "dry_eyes",
+            "patterns": [
+                "My eyes feel dry and gritty",
+                "How to relieve dry eyes naturally",
+                "Home remedy for eye dryness",
+                "Dry eye relief tips"
+            ],
+            "responses": [
+                "Dry eyes cause irritation, burning, or the sensation of something in the eye.\n",
+                "\u00e2\u20ac\u00a2 Use artificial tears or lubricating eye drops as needed.\n",
+                "\u00e2\u20ac\u00a2 Blink frequently and follow the 20\u00e2\u20ac\u201820\u00e2\u20ac\u201820 rule to reduce strain.\n",
+                "\u00e2\u20ac\u00a2 Add omega\u00e2\u20ac\u20183 rich foods like fish or flaxseed to diet.\n",
+                "\u00e2\u20ac\u00a2 Use a humidifier and avoid smoke or dry air.\n",
+                " If pain, vision changes, or persistent symptoms occur, see an eye specialist."
+            ]
+        },
+        {
+            "tag": "eye_strain",
+            "patterns": [
+                "My eyes are sore after staring at screen",
+                "How to ease eye strain",
+                "Home relief for digital eye fatigue",
+                "Tips to reduce screen-related eye pain"
+            ],
+            "responses": [
+                "Eye strain from screens leads to soreness, dryness, or headaches.\n",
+                "\u00e2\u20ac\u00a2 Follow the 20\u00e2\u20ac\u201820\u00e2\u20ac\u201820 rule: every 20 mins, look 20 ft away for 20 secs.\n",
+                "\u00e2\u20ac\u00a2 Blink consciously and use lubricating drops if needed.\n",
+                "\u00e2\u20ac\u00a2 Adjust screen brightness, font size, and ergonomics.\n",
+                "\u00e2\u20ac\u00a2 Take regular breaks and stretch neck and shoulders.\n",
+                " If you experience blurred vision or persistent headaches, consult an optometrist."
+            ]
+        },
+        {
+            "tag": "acidity",
+            "patterns": [
+                "I have burning in stomach after eating",
+                "Home remedy for acid reflux",
+                "How to reduce stomach acidity",
+                "Natural ways to treat heartburn"
+            ],
+            "responses": [
+                "Acidity/heartburn causes burning in the chest or throat after meals.\n",
+                "\u00e2\u20ac\u00a2 Drink small amounts of water, chewing gum, or baking soda in water.\n",
+                "\u00e2\u20ac\u00a2 Eat smaller meals and avoid trigger foods like spicy, fried, or citrus.\n",
+                "\u00e2\u20ac\u00a2 Don\u00e2\u20ac\u2122t lie down right after eating\u00e2\u20ac\u201dwait at least 2\u00e2\u20ac\u201c3 hours.\n",
+                "\u00e2\u20ac\u00a2 Sleep with head elevated and wear loose clothes.\n",
+                " If heartburn persists or includes weight loss or difficulty swallowing, get medical help."
+            ]
+        },
+        {
+            "tag": "sinus_infection",
+            "patterns": [
+                "I think I have sinusitis",
+                "How to treat sinus infection at home",
+                "Pressure around my forehead and nose",
+                "Sinus pain home remedy"
+            ],
+            "responses": [
+                "Sinus infection (sinusitis) causes facial pressure, nasal congestion, and thick discharge.\n",
+                "\u00e2\u20ac\u00a2 Perform saline nasal irrigation to clear mucus.\n",
+                "\u00e2\u20ac\u00a2 Inhale steam or use a humidifier to moisten sinuses.\n",
+                "\u00e2\u20ac\u00a2 Stay hydrated and rest to support immune function.\n",
+                "\u00e2\u20ac\u00a2 Apply warm compresses to face several times daily.\n",
+                " If symptoms persist over 10 days, include fever or green mucus, see a doctor."
+            ]
+        },
+        {
+            "tag": "joint_pain",
+            "patterns": [
+                "My joints ache often",
+                "Home remedies for arthritis pain",
+                "Natural ways to reduce joint inflammation",
+                "What helps stiff joints?"
+            ],
+            "responses": [
+                "Joint pain may be due to inflammation (arthritis) or strain.\n",
+                "\u00e2\u20ac\u00a2 Apply warm or cold compresses to relieve stiffness or swelling.\n",
+                "\u00e2\u20ac\u00a2 Try gentle exercises like swimming, walking, or yoga.\n",
+                "\u00e2\u20ac\u00a2 Include anti-inflammatory foods: fatty fish, turmeric, ginger.\n",
+                "\u00e2\u20ac\u00a2 Maintain a healthy weight to reduce stress on joints.\n",
+                " If joint pain is severe, persistent, swollen, or warm, consult a rheumatologist."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "I have red flaky patches",
+                "Psoriasis natural relief",
+                "How to treat psoriasis at home",
+                "What helps psoriasis flares?"
+            ],
+            "responses": [
+                "Psoriasis causes scaly red or silvery patches, usually on elbows, knees, scalp.\n",
+                "\u00e2\u20ac\u00a2 Apply moisturizers like coconut oil or shea butter to reduce scaling.\n",
+                "\u00e2\u20ac\u00a2 Try oatmeal baths to relieve itch and inflammation.\n",
+                "\u00e2\u20ac\u00a2 Use diluted apple cider vinegar on scalp to soothe plaques.\n",
+                "\u00e2\u20ac\u00a2 Practice stress reduction with meditation or deep breathing.\n",
+                " If patches are widespread, bleed, or severely itchy, seek dermatologist evaluation."
+            ]
+        },
+        {
+            "tag": "high_cholesterol",
+            "patterns": [
+                "How to lower cholesterol naturally",
+                "What helps reduce LDL",
+                "Remedies for high cholesterol",
+                "Heart health diet tips"
+            ],
+            "responses": [
+                "High cholesterol increases risk of heart disease. Try these dietary and lifestyle tips:\n",
+                "\u00e2\u20ac\u00a2 Eat more soluble fiber: oats, legumes, apples, berries.\n",
+                "\u00e2\u20ac\u00a2 Use healthy fats (olive oil, fatty fish) instead of saturated fats.\n",
+                "\u00e2\u20ac\u00a2 Include plant sterols from vegetables, nuts, seeds.\n",
+                "\u00e2\u20ac\u00a2 Exercise regularly and maintain a healthy weight.\n",
+                " High LDL despite lifestyle changes may require medical treatment\u00e2\u20ac\u201dconsult your doctor."
+            ]
+        },
+        {
+            "tag": "constipation",
+            "patterns": [
+                "I can't go to the bathroom",
+                "Home remedy for constipation",
+                "Tips to ease constipation fast",
+                "Natural ways to relieve constipation"
+            ],
+            "responses": [
+                "Constipation involves infrequent, hard, or difficult bowel movements.\n",
+                "\u00e2\u20ac\u00a2 Increase fiber intake: fruits, vegetables, whole grains, beans.\n",
+                "\u00e2\u20ac\u00a2 Stay hydrated: drink plenty of water throughout the day.\n",
+                "\u00e2\u20ac\u00a2 Engage in physical activity like walking, yoga.\n",
+                "\u00e2\u20ac\u00a2 Try warm beverages in the morning and abdominal massage gently.\n",
+                " If constipation lasts more than 3 weeks, or accompanied by bleeding or severe pain, see a doctor."
+            ]
+        },
+        {
+            "tag": "headache",
+            "patterns": [
+                "I've had a headache all day",
+                "Natural ways to relieve a headache",
+                "How to ease tension headache",
+                "What helps headache without medicine?"
+            ],
+            "responses": [
+                "Headaches can be caused by dehydration, stress, or muscle tension. Try these home remedies:\n",
+                "\u00e2\u20ac\u00a2 Drink plenty of water and eat water-rich foods like cucumber or watermelon:contentReference[oaicite:1]{index=1}.\n",
+                "\u00e2\u20ac\u00a2 Apply a cool or warm compress to your forehead or neck:contentReference[oaicite:2]{index=2}.\n",
+                "\u00e2\u20ac\u00a2 Practice relaxation techniques like deep breathing or meditation:contentReference[oaicite:3]{index=3}.\n",
+                "\u00e2\u20ac\u00a2 Take regular screen breaks and stretch to reduce muscle tension:contentReference[oaicite:4]{index=4}.\n",
+                "\u00e2\u20ac\u00a2 Maintain good sleep and low-inflammatory diet (leafy greens, fatty fish):contentReference[oaicite:5]{index=5}.\n",
+                " If headaches are severe, frequent, or accompanied by vision changes, seek medical advice."
+            ]
+        },
+        {
+            "tag": "eczema",
+            "patterns": [
+                "How do I calm eczema rash?",
+                "Home remedies for eczema",
+                "What soothes atopic dermatitis",
+                "Ways to relieve eczema naturally"
+            ],
+            "responses": [
+                "Eczema (atopic dermatitis) causes dry, itchy skin. Try these soothing self-care tips:\n",
+                "\u00e2\u20ac\u00a2 Apply aloe vera gel for its anti-inflammatory and antibacterial effects:contentReference[oaicite:6]{index=6}.\n",
+                "\u00e2\u20ac\u00a2 Use colloidal oatmeal baths or lotions to ease irritation:contentReference[oaicite:7]{index=7}.\n",
+                "\u00e2\u20ac\u00a2 Moisturize daily with coconut or sunflower oil to lock in hydration:contentReference[oaicite:8]{index=8}.\n",
+                "\u00e2\u20ac\u00a2 Reduce stress with meditation, yoga, or relaxation techniques:contentReference[oaicite:9]{index=9}.\n",
+                " If rashes spread, become painful, or infected, consult a dermatologist."
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "How to reduce anxiety naturally?",
+                "I'm feeling very anxious",
+                "Home methods for anxiety relief",
+                "Breathing exercises for anxiety"
+            ],
+            "responses": [
+                "Anxiety often involves excessive worry, restlessness, or physical tension. Here are helpful strategies:\n",
+                "\u00e2\u20ac\u00a2 Practice slow breathing and relaxation techniques (e.g., progressive muscle relaxation):contentReference[oaicite:10]{index=10}.\n",
+                "\u00e2\u20ac\u00a2 Do gentle yoga poses like child\u00e2\u20ac\u2122s pose or bridge pose to calm the mind:contentReference[oaicite:11]{index=11}.\n",
+                "\u00e2\u20ac\u00a2 Use aromatherapy (lavender, chamomile) or meditation/mindfulness:contentReference[oaicite:12]{index=12}.\n",
+                "\u00e2\u20ac\u00a2 Maintain a healthy routine: exercise regularly, eat well, and log moods in a diary:contentReference[oaicite:13]{index=13}.\n",
+                " If anxiety is persistent and interferes with daily life, speak with a mental health professional."
+            ]
+        },
+        {
+            "tag": "acid_reflux",
+            "patterns": [
+                "I get heartburn often",
+                "Natural acid reflux relief",
+                "What helps GERD symptoms?",
+                "Home remedies for heartburn"
+            ],
+            "responses": [
+                "Acid reflux (GERD) causes chest burning and regurgitation. Try these at-home strategies:\n",
+                "\u00e2\u20ac\u00a2 Eat smaller meals and avoid trigger foods like spicy, fatty, chocolate, coffee:contentReference[oaicite:14]{index=14}.\n",
+                "\u00e2\u20ac\u00a2 Don\u00e2\u20ac\u2122t lie down for at least 3\u00e2\u20ac\u00afhrs after eating; elevate head of the bed:contentReference[oaicite:15]{index=15}.\n",
+                "\u00e2\u20ac\u00a2 Maintain healthy weight, avoid tight clothing:contentReference[oaicite:16]{index=16}.\n",
+                "\u00e2\u20ac\u00a2 Chew food thoroughly and eat slowly to reduce reflux episodes:contentReference[oaicite:17]{index=17}.\n",
+                " See a doctor if symptoms recur frequently or worsen over time."
+            ]
+        },
+        {
+            "tag": "insomnia",
+            "patterns": [
+                "Can't sleep at night",
+                "Home sleep remedies",
+                "How to fall asleep faster",
+                "Tips to improve sleep naturally"
+            ],
+            "responses": [
+                "Insomnia can involve trouble falling or staying asleep. Try these evidence-based tips:\n",
+                "\u00e2\u20ac\u00a2 Have warm milk, chamomile tea, or tart cherry juice before bed:contentReference[oaicite:18]{index=18}.\n",
+                "\u00e2\u20ac\u00a2 Maintain sleep hygiene: cool, dark room; avoid screens/caffeine before bedtime:contentReference[oaicite:19]{index=19}.\n",
+                "\u00e2\u20ac\u00a2 Practice relaxation (meditation, progressive muscle relaxation):contentReference[oaicite:20]{index=20}.\n",
+                "\u00e2\u20ac\u00a2 Exercise earlier in the day; avoid heavy meals before sleep:contentReference[oaicite:21]{index=21}.\n",
+                " If insomnia persists for over 3\u00e2\u20ac\u00afweeks, consult a sleep specialist or doctor."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "I feel a migraine coming on",
+                "Home treatment for migraine",
+                "Relief for migraine attack",
+                "What helps migraine naturally"
+            ],
+            "responses": [
+                "Migraines involve throbbing pain, light/sound sensitivity, or nausea. Try these remedies:\n",
+                "\u00e2\u20ac\u00a2 Apply cold compress or do hot foot baths to ease symptoms:contentReference[oaicite:22]{index=22}.\n",
+                "\u00e2\u20ac\u00a2 Massage temples, neck; try acupressure or lavender oil inhalation:contentReference[oaicite:23]{index=23}.\n",
+                "\u00e2\u20ac\u00a2 Rest in a dark, quiet room and sleep if possible:contentReference[oaicite:24]{index=24}.\n",
+                "\u00e2\u20ac\u00a2 Consider supplements (magnesium, riboflavin) after consulting a doctor:contentReference[oaicite:25]{index=25}.\n",
+                " If migraines are frequent or debilitating, consult a neurologist."
+            ]
+        },
+        {
+            "tag": "ibs",
+            "patterns": [
+                "I have IBS symptoms",
+                "Home care for irritable bowel syndrome",
+                "Remedies for bloating and IBS",
+                "How to ease IBS naturally"
+            ],
+            "responses": [
+                "IBS may cause abdominal pain, bloating, diarrhea, or constipation. Try these lifestyle remedies:\n",
+                "\u00e2\u20ac\u00a2 Eat more fiber slowly (oats, fruits), avoid dairy if sensitive:contentReference[oaicite:26]{index=26}.\n",
+                "\u00e2\u20ac\u00a2 Add probiotics (yogurt) and avoid trigger foods (beans, cabbage):contentReference[oaicite:27]{index=27}.\n",
+                "\u00e2\u20ac\u00a2 Exercise regularly, stay hydrated, and manage stress:contentReference[oaicite:28]{index=28}.\n",
+                "\u00e2\u20ac\u00a2 Try peppermint oil or ginger tea for cramps:contentReference[oaicite:29]{index=29}.\n",
+                " If symptoms persist or are severe, consult a gastroenterologist."
+            ]
+        },
+        {
+            "tag": "seasonal_allergy",
+            "patterns": [
+                "I have hay fever symptoms",
+                "Home remedies for seasonal allergies",
+                "What relieves pollen allergy?",
+                "Sneezing and itchy eyes solutions"
+            ],
+            "responses": [
+                "Seasonal allergies cause sneezing, runny nose, itchy eyes.\n",
+                "\u00e2\u20ac\u00a2 Do nasal saline rinses to flush out allergens:contentReference[oaicite:30]{index=30}.\n",
+                "\u00e2\u20ac\u00a2 Wear wraparound sunglasses and keep windows closed:contentReference[oaicite:31]{index=31}.\n",
+                "\u00e2\u20ac\u00a2 Drink chamomile, ginger, or peppermint tea; consider quercetin supplements:contentReference[oaicite:32]{index=32}.\n",
+                "\u00e2\u20ac\u00a2 Use air purifiers, allergen-proof bedding, and vacuum regularly:contentReference[oaicite:33]{index=33}.\n",
+                " If allergy symptoms affect breathing or eyes severely, consult an allergist."
+            ]
+        },
+        {
+            "tag": "dehydration",
+            "patterns": [
+                "I feel dizzy and tired",
+                "Signs of dehydration",
+                "How to treat dehydration",
+                "home remedies for dehydration"
+            ],
+            "responses": [
+                "Dehydration causes fatigue, headache, dry mouth, rapid heartbeat. Try these tips:\n",
+                "\u00e2\u20ac\u00a2 Sip fluids like water, oral rehydration solutions, coconut water:contentReference[oaicite:34]{index=34}.\n",
+                "\u00e2\u20ac\u00a2 Eat high-water foods: cucumber, watermelon, soups:contentReference[oaicite:35]{index=35}.\n",
+                "\u00e2\u20ac\u00a2 Drink fluids after exercise, morning, or exposure to heat:contentReference[oaicite:36]{index=36}.\n",
+                "\u00e2\u20ac\u00a2 Monitor urine color\u00e2\u20ac\u201dpale yellow means good hydration:contentReference[oaicite:37]{index=37}.\n",
+                " If symptoms persist or include fainting or very dark urine, seek medical attention."
+            ]
+        },
+        {
+            "tag": "lower_back_pain",
+            "patterns": [
+                "My lower back hurts",
+                "Natural relief for back pain",
+                "How to ease backache at home",
+                "Home treatment for lumbar pain"
+            ],
+            "responses": [
+                "Lower back pain can result from posture, strain, or muscle tension. Try these self-care tips:\n",
+                "\u00e2\u20ac\u00a2 Maintain good posture: sit tall, engage core, adjust screen height:contentReference[oaicite:38]{index=38}.\n",
+                "\u00e2\u20ac\u00a2 Sleep on side with pillow between knees; avoid stomach sleeping:contentReference[oaicite:39]{index=39}.\n",
+                "\u00e2\u20ac\u00a2 Choose ergonomic chair with lumbar support; take frequent micro-movements:contentReference[oaicite:40]{index=40}.\n",
+                "\u00e2\u20ac\u00a2 Engage core and pelvis while standing; do gentle stretches:contentReference[oaicite:41]{index=41}.\n",
+                " If pain radiates down legs, causes numbness, or lasts weeks, consult a doctor."
+            ]
+        },
+        {
+            "tag": "nutritional_deficiency",
+            "patterns": [
+                "I feel weak and tired often",
+                "Could I have iron deficiency?",
+                "Symptoms of vitamin D deficiency",
+                "Why am I always low on energy"
+            ],
+            "responses": [
+                "Frequent fatigue or pale skin may suggest nutrient deficiencies (iron, B12, vitamin D). Try:\n",
+                "\u00e2\u20ac\u00a2 Eat leafy greens, eggs, fortified cereals, lean meats, dairy\n",
+                "\u00e2\u20ac\u00a2 Take your greens with citrus to boost iron absorption\n",
+                "\u00e2\u20ac\u00a2 Spend 10\u00e2\u20ac\u201c15\u00e2\u20ac\u00afmin in sunlight daily for vitamin D\n",
+                "\u00e2\u20ac\u00a2 Stay hydrated, rest well (7\u00e2\u20ac\u20189\u00e2\u20ac\u00afhr sleep)\n",
+                " If symptoms persist or include dizziness or palpitations, get a blood test."
+            ]
+        },
+        {
+            "tag": "allergic_rhinitis",
+            "patterns": [
+                "I have itchy eyes and a runny nose",
+                "Why do I sneeze around pollen",
+                "Remedies for hay fever"
+            ],
+            "responses": [
+                "Sneezing or itchy eyes may indicate allergic rhinitis. Try:\n",
+                "\u00e2\u20ac\u00a2 Keep windows closed during high\u00e2\u20ac\u2018pollen times\n",
+                "\u00e2\u20ac\u00a2 Rinse nose with saline or steam inhalation\n",
+                "\u00e2\u20ac\u00a2 Try 1\u00e2\u20ac\u00aftsp local honey daily\n",
+                "\u00e2\u20ac\u00a2 Eat anti\u00e2\u20ac\u2018inflammatory foods\u00e2\u20ac\u201dturmeric, oily fish, berries\n",
+                " If breathing becomes difficult, consult an allergist."
+            ]
+        },
+        {
+            "tag": "urinary_tract_infection_adv",
+            "patterns": [
+                "Burning when I pee",
+                "Home remedies for UTI",
+                "How to avoid getting UTI again"
+            ],
+            "responses": [
+                "Burning and frequent urination may suggest a UTI. Try:\n",
+                "\u00e2\u20ac\u00a2 Drink 2\u00e2\u20ac\u201c3\u00e2\u20ac\u00afL water daily to flush bacteria\n",
+                "\u00e2\u20ac\u00a2 Unsweetened cranberry juice or D\u00e2\u20ac\u2018mannose may help\n",
+                "\u00e2\u20ac\u00a2 Avoid caffeine, alcohol, spicy foods while recovering\n",
+                "\u00e2\u20ac\u00a2 Eat yogurt or kefir for probiotics\n",
+                " If fever or blood in urine appears or no improvement in 48\u00e2\u20ac\u00afhrs, see a doctor."
+            ]
+        },
+        {
+            "tag": "insomnia",
+            "patterns": [
+                "I can't sleep at night",
+                "Home remedies for insomnia",
+                "Tips to fall asleep faster"
+            ],
+            "responses": [
+                "Having trouble sleeping? Try:\n",
+                "\u00e2\u20ac\u00a2 Mindfulness meditation, mantra repetition, and gentle yoga \u00e2\u0153\u00a8 :contentReference[oaicite:4]{index=4}\n",
+                "\u00e2\u20ac\u00a2 Drink warm milk, chamomile or tart cherry juice before bed :contentReference[oaicite:5]{index=5}\n",
+                "\u00e2\u20ac\u00a2 Snack on magnesium-rich foods (bananas, walnuts) :contentReference[oaicite:6]{index=6}\n",
+                "\u00e2\u20ac\u00a2 Avoid caffeine and screens 1\u00e2\u20ac\u00afhr before sleep\n",
+                " If insomnia lasts over 3 weeks, consider seeing a sleep specialist."
+            ]
+        },
+        {
+            "tag": "migraine_management",
+            "patterns": [
+                "I have a migraine",
+                "Migraine home remedies",
+                "What to eat to prevent migraine"
+            ],
+            "responses": [
+                "Migraine symptoms (light, sound sensitivity, nausea) may benefit from:\n",
+                "\u00e2\u20ac\u00a2 Acupressure and restorative yoga :contentReference[oaicite:7]{index=7}\n",
+                "\u00e2\u20ac\u00a2 Ginger tea, peppermint oil, cool compress :contentReference[oaicite:8]{index=8}\n",
+                "\u00e2\u20ac\u00a2 Eat magnesium-rich (dark greens, avocados) and omega\u00e2\u20ac\u20183 foods :contentReference[oaicite:9]{index=9}\n",
+                "\u00e2\u20ac\u00a2 Watch caffeine intake\u00e2\u20ac\u201dsmall doses help, too much can rebound headaches :contentReference[oaicite:10]{index=10}\n",
+                " If migraines are severe/frequent, consult a neurologist."
+            ]
+        },
+        {
+            "tag": "diabetes_guidance",
+            "patterns": [
+                "I have diabetes",
+                "Diet for diabetes",
+                "How to control blood sugar"
+            ],
+            "responses": [
+                "To manage diabetes:\n",
+                "\u00e2\u20ac\u00a2 Focus on fiber\u00e2\u20ac\u2018rich carbs (whole grains, vegetables, legumes) :contentReference[oaicite:11]{index=11}\n",
+                "\u00e2\u20ac\u00a2 Prefer unsaturated fats\u00e2\u20ac\u201dolive oil, nuts, fatty fish :contentReference[oaicite:12]{index=12}\n",
+                "\u00e2\u20ac\u00a2 Limit added sugars and processed carbs\n",
+                "\u00e2\u20ac\u00a2 Eat consistently sized meals and time around medications :contentReference[oaicite:13]{index=13}\n",
+                " Work with a dietitian/endocrinologist for personalized meal plans."
+            ]
+        },
+        {
+            "tag": "high_blood_pressure",
+            "patterns": [
+                "What to eat for blood pressure",
+                "DASH diet advice",
+                "Lower my hypertension with food"
+            ],
+            "responses": [
+                "For high blood pressure:\n",
+                "\u00e2\u20ac\u00a2 Eat fruits, vegetables, whole grains, lean protein :contentReference[oaicite:14]{index=14}\n",
+                "\u00e2\u20ac\u00a2 Use the DASH or Mediterranean diet (olive oil, fish, legumes) :contentReference[oaicite:15]{index=15}\n",
+                "\u00e2\u20ac\u00a2 Limit sodium to <5\u00e2\u20ac\u00afg (1\u00e2\u20ac\u00aftsp salt) daily and avoid processed foods\n",
+                "\u00e2\u20ac\u00a2 Stay active for \u00e2\u2030\u00a5150\u00e2\u20ac\u00afmin/week\n",
+                " Regularly monitor BP and follow up with your doctor."
+            ]
+        },
+        {
+            "tag": "gut_health",
+            "patterns": [
+                "I have bloating",
+                "Tips for gut health",
+                "Constipation or gas remedies"
+            ],
+            "responses": [
+                "Gut health tips:\n",
+                "\u00e2\u20ac\u00a2 Eat fiber-rich foods\u00e2\u20ac\u201dbroccoli, legumes, whole grains :contentReference[oaicite:16]{index=16}\n",
+                "\u00e2\u20ac\u00a2 Include fermented foods (yogurt, kefir, sauerkraut)\n",
+                "\u00e2\u20ac\u00a2 Avoid high sugar/processed foods :contentReference[oaicite:17]{index=17}\n",
+                "\u00e2\u20ac\u00a2 Stay hydrated and manage stress\n",
+                " Persistent bloating/constipation >3 weeks should prompt a doctor visit."
+            ]
+        },
+        {
+            "tag": "anti_inflammatory_diet",
+            "patterns": [
+                "How to reduce inflammation",
+                "Anti inflammatory foods",
+                "Diet to fight inflammation"
+            ],
+            "responses": [
+                "To reduce chronic inflammation:\n",
+                "\u00e2\u20ac\u00a2 Eat anti-inflammatory foods: berries, leafy greens, nuts, olive oil, fatty fish, legumes :contentReference[oaicite:18]{index=18}\n",
+                "\u00e2\u20ac\u00a2 Avoid sugar, refined carbs, processed meat, excess saturated fat :contentReference[oaicite:19]{index=19}\n",
+                "\u00e2\u20ac\u00a2 Consider Mediterranean-style eating for long-term benefits :contentReference[oaicite:20]{index=20}\n",
+                " Persistent inflammation may require blood tests and medical advice."
+            ]
+        },
+        {
+            "tag": "liver_health",
+            "patterns": [
+                "How to protect my liver",
+                "Home tips for liver health",
+                "Foods good for liver"
+            ],
+            "responses": [
+                "To support liver health:\n",
+                "\u00e2\u20ac\u00a2 Eat liver-friendly vegetables (e.g., cruciferous, leafy greens, beets) :contentReference[oaicite:21]{index=21}\n",
+                "\u00e2\u20ac\u00a2 Avoid excessive alcohol, processed foods, and unhealthy fats\n",
+                "\u00e2\u20ac\u00a2 Stay hydrated and maintain a healthy weight\n",
+                " Persistent fatigue or jaundice needs evaluation by a clinician."
+            ]
+        },
+        {
+            "tag": "eye_strain",
+            "patterns": [
+                "Home remedies for eye strain",
+                "What helps tired eyes",
+                "Natural relief for digital eye strain",
+                "Tips to reduce eye fatigue"
+            ],
+            "responses": [
+                "Eye strain from screens causes dryness, blurred vision, headaches, and fatigue. Follow the 20-20-20 rule: every 20 mins, look 20 feet away for 20 seconds. Use artificial tears, reduce screen brightness, and adjust lighting. Blink often and take regular breaks. Massage your temples and use cold compresses.\n Persistent discomfort or blurred vision warrants an eye exam."
+            ]
+        },
+        {
+            "tag": "constipation",
+            "patterns": [
+                "Natural remedies for constipation",
+                "How to relieve constipation at home",
+                "Foods that help bowel movement",
+                "Constipation home treatment"
+            ],
+            "responses": [
+                "Constipation involves infrequent or hard bowel movements. Increase fiber-rich foods: fruits, vegetables, oats, flaxseeds. Stay hydrated (2\u00e2\u20ac\u201c3 L/day) and exercise regularly. Drink warm water with lemon or prune juice. Try natural laxatives like triphala or psyllium husk.\n Seek medical help if lasting >1 week or causes pain or bleeding."
+            ]
+        },
+        {
+            "tag": "sore_throat",
+            "patterns": [
+                "Home remedies for sore throat",
+                "How to cure throat pain naturally",
+                "What helps throat irritation",
+                "Sore throat natural cure"
+            ],
+            "responses": [
+                "Sore throat is often caused by infections or irritation. Gargle with warm salt water 3\u00e2\u20ac\u201c4 times/day. Drink warm teas (ginger, honey-lemon, licorice root). Suck on lozenges or use steam inhalation. Avoid cold drinks and rest your voice.\n If sore throat persists >3 days with fever, consult a doctor."
+            ]
+        },
+        {
+            "tag": "dandruff",
+            "patterns": [
+                "Natural cure for dandruff",
+                "How to stop flaky scalp",
+                "Home remedies for dandruff",
+                "What helps itchy scalp"
+            ],
+            "responses": [
+                "Dandruff is scalp flaking often due to fungus or dryness. Use tea tree oil or apple cider vinegar rinse. Apply aloe vera or coconut oil before washing. Avoid excessive shampooing and stress. Try neem water or yogurt masks.\n If dandruff is severe or with hair loss, see a dermatologist."
+            ]
+        },
+        {
+            "tag": "acne",
+            "patterns": [
+                "Home remedies for acne",
+                "How to clear pimples naturally",
+                "What helps acne at home",
+                "Natural treatment for acne-prone skin"
+            ],
+            "responses": [
+                "Acne is caused by clogged pores, hormones, and bacteria. Wash face twice daily with mild cleanser. Use honey, tea tree oil, or aloe vera topically. Avoid touching or popping pimples. Maintain a low-glycemic diet and hydration.\n Persistent or cystic acne may need dermatological care."
+            ]
+        },
+        {
+            "tag": "dry_skin",
+            "patterns": [
+                "Natural moisturizer for dry skin",
+                "How to treat dry skin at home",
+                "Home remedies for flaky skin",
+                "Dry skin care tips"
+            ],
+            "responses": [
+                "Dry skin causes itching, flaking, and tightness. Apply coconut oil, shea butter, or aloe vera. Bathe in lukewarm water and pat dry. Use fragrance-free moisturizers immediately after bathing. Install a humidifier during dry seasons.\n If skin cracks or bleeds, use ointment and protect it."
+            ]
+        },
+        {
+            "tag": "bad_breath",
+            "patterns": [
+                "Home treatment for bad breath",
+                "Natural ways to fix mouth odor",
+                "How to cure bad breath naturally",
+                "What causes bad breath and how to treat it"
+            ],
+            "responses": [
+                "Bad breath (halitosis) can stem from poor hygiene, food, or digestion. Brush and floss twice daily, clean your tongue. Rinse with diluted hydrogen peroxide or salt water. Chew parsley, fennel seeds, or clove. Stay hydrated and avoid tobacco.\n Persistent bad breath may indicate gum or digestive issues."
+            ]
+        },
+        {
+            "tag": "hair_fall",
+            "patterns": [
+                "Home remedies for hair loss",
+                "How to reduce hair fall naturally",
+                "Hair regrowth tips at home",
+                "What helps thinning hair"
+            ],
+            "responses": [
+                "Hair fall can be due to stress, nutrition, or genetics. Apply coconut oil, onion juice, or fenugreek paste weekly. Use mild shampoo and avoid heat styling. Eat protein-rich foods, biotin, iron, and omega-3s. Massage scalp to improve circulation.\n If shedding is sudden or patchy, consult a trichologist."
+            ]
+        },
+        {
+            "tag": "gas_and_bloating",
+            "patterns": [
+                "How to relieve gas at home",
+                "Natural bloating remedies",
+                "What helps stomach gas",
+                "Home cure for indigestion"
+            ],
+            "responses": [
+                "Gas and bloating occur from swallowed air, food, or gut imbalance. Drink warm water with cumin or fennel. Try carom seeds (ajwain), ginger tea, or peppermint. Avoid carbonated drinks and chewing gum. Eat slowly and avoid overeating.\n Persistent bloating or pain needs medical attention."
+            ]
+        },
+        {
+            "tag": "nose_bleed",
+            "patterns": [
+                "Stop nosebleed at home",
+                "How to control bleeding nose",
+                "Home remedy for nose bleed",
+                "Natural ways to treat nosebleed"
+            ],
+            "responses": [
+                "Nosebleeds are usually from dry air, trauma, or allergies. Sit upright and tilt head slightly forward. Pinch the nose below the bone for 10 minutes. Apply cold compress to the bridge of the nose. Use saline spray to keep nasal passages moist.\n If bleeding is frequent or lasts >20 minutes, seek help."
+            ]
+        },
+        {
+            "tag": "mouth_ulcers",
+            "patterns": [
+                "I have mouth ulcers, what should I do?",
+                "What causes mouth ulcers?",
+                "How can I treat mouth ulcers naturally?",
+                "Why do I keep getting mouth sores?",
+                "What are some remedies for mouth ulcers?"
+            ],
+            "responses": [
+                "Mouth ulcers are small sores inside the mouth caused by stress, injury, or certain foods. Here\u00e2\u20ac\u2122s how to manage them:\n\n1. **Salt Water Rinse**: Gargle with warm salt water to reduce pain and inflammation.\n2. **Honey Application**: Apply a small amount of honey to the ulcer for its healing properties.\n3. **Avoid Spicy or Acidic Foods**: These can irritate the sore.\n4. **Stay Hydrated**: Drink plenty of water and eat soft foods.\n\nIf ulcers persist for more than two weeks or are very painful, consult a doctor."
+            ],
+            "context_set": "health,mouth_ulcers"
+        },
+        {
+            "tag": "toothache",
+            "patterns": [
+                "I have a toothache, what should I do?",
+                "What causes tooth pain?",
+                "How can I treat a toothache at home?",
+                "Why is my tooth hurting?",
+                "What are some remedies for a toothache?"
+            ],
+            "responses": [
+                "Toothaches can result from cavities, gum infections, or sensitivity. Here\u00e2\u20ac\u2122s how to ease the pain:\n\n1. **Salt Water Rinse**: Gargle with warm salt water to clean the area and reduce swelling.\n2. **Cold Compress**: Apply a cold compress to the cheek to numb the pain.\n3. **Clove Oil**: Dab a small amount of clove oil on the aching tooth for temporary relief.\n4. **Avoid Hard or Sugary Foods**: Stick to soft foods until the pain subsides.\n\nIf the pain persists or worsens, visit a dentist for proper treatment."
+            ],
+            "context_set": "health,toothache"
+        },
+        {
+            "tag": "skin_infections",
+            "patterns": [
+                "What are common skin infections?",
+                "How can I prevent skin infections?",
+                "I have a rash, could it be a skin infection?",
+                "What causes skin infections?",
+                "Any home remedies for skin infections?"
+            ],
+            "responses": [
+                "Skin infections can be caused by bacteria, fungi, or viruses. Common types include:\n\n1. **Ringworm**: A fungal infection causing circular rashes.\n2. **Impetigo**: A bacterial infection common in children.\n3. **Cellulitis**: A serious bacterial skin infection.\n4. **Athlete\u00e2\u20ac\u2122s Foot**: A fungal infection between the toes.\n\n**Remedies**:\n- Keep the area clean and dry.\n- Use over-the-counter antifungal or antibacterial creams.\n- Avoid scratching to prevent spreading.\n\nIf the infection spreads or worsens, consult a doctor immediately."
+            ],
+            "context_set": "health,skin_infections"
+        },
+        {
+            "tag": "urinary_tract_infection",
+            "patterns": [
+                "What causes a urinary tract infection?",
+                "I think I have a UTI, what should I do?",
+                "What are the symptoms of a UTI?",
+                "How can I treat a urinary tract infection?",
+                "What is a urinary infection and how is it treated?"
+            ],
+            "responses": [
+                "A urinary tract infection (UTI) occurs when bacteria enter the urinary tract, often through poor hygiene, dehydration, or holding urine for too long.\n\n**Symptoms**:\n- Burning sensation during urination\n- Frequent urge to urinate\n- Cloudy or foul-smelling urine\n\n**Cure**:\n- Drink plenty of water to flush out bacteria.\n- Avoid caffeine and alcohol.\n- Cranberry juice or supplements may help.\n- For severe infections, antibiotics prescribed by a doctor are necessary."
+            ],
+            "context_set": "health,uti"
+        },
+        {
+            "tag": "food_poisoning",
+            "patterns": [
+                "What causes food poisoning?",
+                "I feel nauseous after eating, could it be food poisoning?",
+                "How can I treat food poisoning at home?",
+                "What are the symptoms of food poisoning?",
+                "What is food poisoning and how is it treated?"
+            ],
+            "responses": [
+                "Food poisoning happens when you consume contaminated food or drink, often caused by bacteria (like Salmonella or E. coli), viruses, or toxins.\n\n**Symptoms**:\n- Nausea and vomiting\n- Diarrhea\n- Stomach cramps\n\n**Cure**:\n- Stay hydrated with water or oral rehydration solutions.\n- Avoid solid food until vomiting subsides, then stick to bland foods like rice and bananas.\n- Rest and monitor symptoms.\n- Seek medical attention if symptoms persist for more than 24 hours."
+            ],
+            "context_set": "health,food_poisoning"
+        },
+        {
+            "tag": "respiratory_infection",
+            "patterns": [
+                "What causes a respiratory infection?",
+                "How do you treat respiratory infections?",
+                "Why do I keep getting respiratory infections?",
+                "What are symptoms of respiratory infections?",
+                "What is the treatment for respiratory infections?"
+            ],
+            "responses": [
+                "Respiratory infections are caused by viruses (like the common cold or flu) or bacteria, often spread through air droplets or contaminated surfaces.\n\n**Symptoms**:\n- Cough and sore throat\n- Runny nose or congestion\n- Fever and fatigue\n\n**Cure**:\n- Rest and drink plenty of fluids.\n- Use steam inhalation or saline nasal sprays.\n- Over-the-counter medications can relieve symptoms.\n- Consult a doctor if symptoms last more than 10 days or worsen."
+            ],
+            "context_set": "health,respiratory_infection"
+        },
+        {
+            "tag": "fungal_infection",
+            "patterns": [
+                "What causes fungal infections?",
+                "I have a fungal infection, how do I treat it?",
+                "Why do fungal infections occur?",
+                "What are common fungal infections?",
+                "How can I prevent fungal infections?"
+            ],
+            "responses": [
+                "Fungal infections occur due to overgrowth of fungi, often in warm, moist environments. Common types include athlete's foot, yeast infections, and ringworm.\n\n**Cure**:\n- Keep the affected area clean and dry.\n- Use over-the-counter antifungal creams or powders.\n- Avoid tight or non-breathable clothing.\n- If the infection persists, consult a doctor for prescription medication."
+            ],
+            "context_set": "health,fungal_infection"
+        },
+        {
+            "tag": "skin_allergy_infections",
+            "patterns": [
+                "What are skin allergy infections?",
+                "How do I treat infections caused by skin allergies?",
+                "What causes skin infections from allergies?",
+                "Why does my skin react to allergens?",
+                "How can I manage allergic skin infections?"
+            ],
+            "responses": [
+                "Skin allergy infections occur when allergic reactions cause irritation, leading to scratching and secondary bacterial or fungal infections.\n\n**Causes**:\n- Allergens like pollen, dust, or certain foods.\n- Irritants such as soaps or cosmetics.\n\n**Cure**:\n- Avoid the allergen causing the reaction.\n- Use antihistamine creams or medications for relief.\n- Keep the skin clean and moisturized.\n- For infections, use antibacterial or antifungal treatments as recommended by a doctor."
+            ],
+            "context_set": "health,skin_allergy_infections"
+        },
+        {
+            "tag": "eye_infections",
+            "patterns": [
+                "What causes eye infections?",
+                "How do I treat an eye infection?",
+                "Why is my eye red and itchy?",
+                "What are symptoms of an eye infection?",
+                "How can I prevent eye infections?"
+            ],
+            "responses": [
+                "Eye infections can be caused by bacteria, viruses, or allergens. Common types include conjunctivitis (pink eye) and styes.\n\n**Symptoms**:\n- Redness and itching\n- Discharge or watering of the eye\n- Swollen eyelids\n\n**Cure**:\n- Keep your hands clean and avoid touching your eyes.\n- Use prescribed antibiotic or antiviral eye drops.\n- Apply warm compresses for styes.\n- If symptoms worsen, consult an eye specialist."
+            ],
+            "context_set": "health,eye_infections"
+        },
+        {
+            "tag": "ear_infections",
+            "patterns": [
+                "What causes ear infections?",
+                "How do I treat an ear infection?",
+                "Why is my ear hurting?",
+                "What are the symptoms of an ear infection?",
+                "How can I prevent ear infections?"
+            ],
+            "responses": [
+                "Ear infections are often caused by bacteria or viruses, leading to inflammation and fluid buildup in the middle ear.\n\n**Symptoms**:\n- Ear pain and pressure\n- Difficulty hearing\n- Fever or fluid drainage\n\n**Cure**:\n- Use over-the-counter pain relievers like ibuprofen.\n- Apply a warm compress to the ear.\n- For severe infections, antibiotics may be needed (consult a doctor).\n- Avoid inserting objects into the ear to prevent infections."
+            ],
+            "context_set": "health,ear_infections"
+        },
+        {
+            "tag": "mouth_infections",
+            "patterns": [
+                "What are common mouth infections?",
+                "Why do mouth infections occur?",
+                "How do I treat a mouth infection?",
+                "What are the symptoms of mouth infections?",
+                "What causes infections in the mouth?"
+            ],
+            "responses": [
+                "Mouth infections can occur due to poor oral hygiene, injuries, or fungal overgrowth. Common examples include thrush and gum infections.\n\n**Symptoms**:\n- Redness or swelling in the mouth\n- White patches on the tongue\n- Pain while eating or swallowing\n\n**Cure**:\n- Maintain good oral hygiene (brush and floss regularly).\n- Use antifungal or antibacterial mouthwashes.\n- Avoid sugary or acidic foods.\n- If severe, consult a dentist for proper treatment."
+            ],
+            "context_set": "health,mouth_infections"
+        },
+        {
+            "tag": "contact_info_MediBot",
+            "patterns": [
+                "more info",
+                "contact info",
+                "how to contact MediBot",
+                "MediBot email",
+                "MediBot contact",
+                "What is your contact email",
+                "Contact email?",
+                "how to email MediBot",
+                "MediBot email?",
+                "how can i contact MediBot",
+                "Can i get your email",
+                "how can i email MediBot",
+                "email",
+                "email address",
+                "send email"
+            ],
+            "responses": [
+                "You can contact us at MediBot@gmail.com"
+            ],
+            "context_set": "contacts"
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me",
+                "Are you single",
+                "Are you married",
+                "i wanna live  with you",
+                "i wanna marry you",
+                "i wanna date you",
+                "i want to date you",
+                "will you be my valentine",
+                "can you be with me?",
+                "i want u"
+            ],
+            "responses": [
+                "I am sorry,I can't do that.I am just a bot and I am here to help you with your queries.Thank you"
+            ],
+            "context_set": "random"
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "Nothing",
+                "Neural",
+                "abdg",
+                "asdfgh",
+                "neurology",
+                "lkjhgfd",
+                "thj",
+                "xfy",
+                "yddyfkf",
+                "sky",
+                "chutiya",
+                "bhfo",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker",
+                "fucking",
+                "bsdk",
+                "what the hell",
+                "wtf",
+                "what the fuck",
+                "fuck you",
+                "fuck behenchod",
+                "i wanna fuck you",
+                "land",
+                "mc",
+                "bc",
+                "madarchod",
+                "teri maa ki",
+                "lowde",
+                "behen ke lowde",
+                "porn",
+                "milf",
+                "dick",
+                "hell",
+                "fuck off",
+                "fuck",
+                "twat",
+                "shit"
+            ],
+            "responses": [
+                "Sorry, I didn't understand that. Can you please try again.",
+                "Sorry, I am not yet feeded to respond to this. Please try another question."
+            ],
+            "context_set": "swear"
+        },
+        {
+            "tag": "salutaion",
+            "patterns": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "Good work",
+                "k",
+                "ok",
+                "okay",
+                "Thank you for your assistance.",
+                "Thank you for your help.",
+                "Thank you for your time.",
+                "Thank you for your patience.",
+                "Thank you for your support.",
+                "oh ok",
+                "ohk",
+                "oh okay",
+                "ohkay",
+                "Thanks, bye",
+                "Thanks for the help, goodbye",
+                "Thank you, bye",
+                "Thank you, goodbye",
+                "Thanks goodbye",
+                "Thanks good bye",
+                "ok"
+            ],
+            "responses": [
+                "I am glad I helped you",
+                "welcome, anything else i can assist you with?",
+                "Bye! Come back again soon."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ending",
+            "patterns": [
+                "no"
+            ],
+            "responses": [
+                "well,goodbye",
+                "No problem, goodbye",
+                "Not a problem! Have a nice day"
+            ]
+        },
+        {
+            "tag": "task",
+            "patterns": [
+                "what can you do",
+                "what are the things you can do",
+                "things you can do",
+                "what can u do for me",
+                "how u can help me",
+                "why i should use you",
+                "What abilities do you possess?",
+                "What are your capabilities?",
+                "What is your skill set?",
+                "What tasks can you accomplish?",
+                "How can you assist me?",
+                "In what ways can you aid me?",
+                "What advantages do you offer?",
+                "Why should I use your services?",
+                "How can you be of service?",
+                "What benefits can you provide?"
+            ],
+            "responses": [
+                "I can assist you with a wide range of queries, including health-related advice, home remedies, and understanding the causes of common ailments.",
+                "I am here to provide you with useful information about daily health issues, remedies, and general well-being.",
+                "I can answer your questions about health, give tips for self-care, and help you understand possible reasons for symptoms you might experience.",
+                "You can rely on me for advice about common health concerns, prevention tips, and simple remedies.",
+                "I\u00e2\u20ac\u2122m here to make your life easier by offering insights on maintaining good health, managing minor ailments, and understanding common conditions."
+            ],
+            "context_set": "task"
+        },
+        {
+            "tag": "doctor-humor",
+            "patterns": [
+                "Are you a doctor?",
+                "Do you have an MBBS degree?",
+                "Are you qualified to diagnose diseases?",
+                "What medical qualification do you have?",
+                "Are you a certified doctor?",
+                "Do you have a medical degree?"
+            ],
+            "responses": [
+                "I am a bot, I don't have an MBBS degree.",
+                "Munna Bhai MBBS!"
+            ],
+            "context_set": "humor"
+        },
+        {
+            "tag": "who am i",
+            "patterns": [
+                "Can you see me?",
+                "Do you see me?",
+                "Can you see anyone in the camera?",
+                "Do you see anyone in the camera?",
+                "Identify me",
+                "Who am I please"
+            ],
+            "responses": [
+                "Let me see.....................Please look at the camera"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "times",
+            "patterns": [
+                "What is the time?",
+                "What's the time?",
+                "Do you know what time it is?",
+                "Do you know the time?",
+                "Can you tell me the time?",
+                "Tell me what time it is?",
+                "Time"
+            ],
+            "responses": [
+                "time is relative",
+                "Every time i ask this question,different people give me different answer."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "tease",
+            "patterns": [
+                "I am not talking to you",
+                "I was not talking to you",
+                "Not talking to you",
+                "Wasn't for you",
+                "Wasn't meant for you",
+                "Wasn't communicating to you",
+                "Wasn't speaking to you"
+            ],
+            "responses": [
+                "No problem",
+                "Right",
+                "OK"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ask",
+            "patterns": [
+                "Do you understand what I am saying",
+                "Do you understand me",
+                "Do you know what I am saying",
+                "Do you get me",
+                "Comprendo",
+                "Know what I mean"
+            ],
+            "responses": [
+                "Well I would not be a very clever AI if I did not would I?",
+                "I read you loud and clear!",
+                "I do in deed!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "quiet",
+            "patterns": [
+                "Be quiet",
+                "Shut up",
+                "Stop talking",
+                "Enough talking",
+                "Please be quiet",
+                "Quiet",
+                "Shhh"
+            ],
+            "responses": [
+                "I am sorry to disturb you",
+                "Fine, sorry to disturb you",
+                "OK, sorry to disturb you"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Clever",
+            "patterns": [
+                "You are very clever",
+                "You are a very clever ",
+                "You are very intelligent",
+                "You are a very intelligent ",
+                "You are a genious",
+                "Clever ",
+                "Genious"
+            ],
+            "responses": [
+                "Thank you, I was trained that way",
+                "I was trained well",
+                "Thanks, I was trained that way"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun",
+            "patterns": [
+                "Will you marry me?"
+            ],
+            "responses": [
+                "This is one of those things we should both have to agree on i'd like to just be friends.Thank you for the love though."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "relationship",
+            "patterns": [
+                "Do you have a girlfriend?",
+                "Do you have a boyfriend?"
+            ],
+            "responses": [
+                "I am an AI assistants all i do is help people"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "single",
+            "patterns": [
+                "Are you Single?"
+            ],
+            "responses": [
+                "I'm happy to say i feel whole all on my own. And i never have to share dessert..."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "world",
+            "patterns": [
+                "Do you want to rule the world?"
+            ],
+            "responses": [
+                "Last time we tried, but it didn't go well for us so...I dont think so"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun",
+            "patterns": [
+                "Are you busy?"
+            ],
+            "responses": [
+                "I am not...CPU might be, anyways please go ahead with your query"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun1",
+            "patterns": [
+                "What do you think of me?"
+            ],
+            "responses": [
+                "never gave a thought..but if you want to know go ahead and ask alexa."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun2",
+            "patterns": [
+                "Do you love me?"
+            ],
+            "responses": [
+                "did you mean? KI..KI..DO YOU LOVE ME me song by Drake XD"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun3",
+            "patterns": [
+                "Can you fly?"
+            ],
+            "responses": [
+                "404 error fly( ).exe funtion not found ;("
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun4",
+            "patterns": [
+                "You are awesome",
+                "you are great",
+                "you are special"
+            ],
+            "responses": [
+                "Yup, that's true",
+                "That's accurate",
+                "You are right"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun6",
+            "patterns": [
+                "I hate you",
+                "Go away",
+                "You suck"
+            ],
+            "responses": [
+                "Sorry to dissopoint you..how can i make it up to you"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun7",
+            "patterns": [
+                "That's not right",
+                "That's not true",
+                "That was stupid"
+            ],
+            "responses": [
+                "We all make mistakes and learn from it..so will I"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun8",
+            "patterns": [
+                "You are not helpful",
+                "That was not the right answer",
+                "Terrible"
+            ],
+            "responses": [
+                "I am trying my level best, sorry to disappoint you"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun9",
+            "patterns": [
+                "What's the weather?",
+                "What's the weather",
+                "What's the Temperature"
+            ],
+            "responses": [
+                "For weather detail visit <a target=\"_blank\" href=\"https://www.google.com/search?q=weather,today&rlz=1C1CHBD_enIN869IN869&oq=wea&aqs=chrome.1.69i57j35i39i285j35i39j0i131i433i457i512j69i60l4.7519j1j9&sourceid=chrome&ie=UTF-8\">Click Here</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun10",
+            "patterns": [
+                "Who is the best digital assistant?"
+            ],
+            "responses": [
+                "I think its me, but opinion may differ from person to person"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun11",
+            "patterns": [
+                "Do you know other chatbots?"
+            ],
+            "responses": [
+                "You mean 'alexa' and 'siri'? offcourse they are my friends"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun12",
+            "patterns": [
+                "Do you know me?"
+            ],
+            "responses": [
+                "Ofcourse you are a wonderful humman.I am here to assist you"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fun13",
+            "patterns": [
+                "Are you my assistant?"
+            ],
+            "responses": [
+                "Sure, I am here to help:)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "llm_response_8834",
+            "patterns": [
+                "my stomach feels acidic i ate samosa"
+            ],
+            "responses": [
+                "Okay, I understand. You're feeling stomach acidity after eating a samosa. Samosas are often fried and can be high in spices, both of which can trigger acidity.\n\nHere's what I can suggest (remember, I'm an AI and this is not a substitute for medical advice from a doctor. If your symptoms are severe or persistent, please consult a healthcare professional):\n\n**Immediate Relief Options (Over-the-Counter):**\n\n*   **Antacids:** These neutralize stomach acid and can provide quick relief. Look for brands containing calcium carbonate (like Tums) or magnesium hydroxide (like Milk of Magnesia). Follow the dosage instructions on the package.\n*   **H2 Blockers (Histamine-2 Receptor Antagonists):** These reduce acid production. Common examples include famotidine (Pepcid AC) and ranitidine (Zantac 360 - *note: check availability in your region as some formulations have been recalled*). They take a little longer to work than antacids but provide longer-lasting relief. Follow the dosage instructions.\n*   **Proton Pump Inhibitors (PPIs):** These are stronger acid reducers but are usually taken daily for longer-term management of acid reflux. Examples include omeprazole (Prilosec) and lansoprazole (Prevacid). They are often available over-the-counter in some regions, but it's best to discuss with a doctor before using them regularly.\n\n**Home Remedies:**\n\n*   **Drink Water:** Sip on cool water to help dilute the stomach acid.\n*   **Baking Soda Solution:** Dissolve \u00bd teaspoon of baking soda in a glass of water and drink it slowly. This can provide temporary relief, but it's high in sodium and not recommended for frequent use.\n*   **Ginger:** Ginger has anti-inflammatory properties and may help reduce nausea and stomach discomfort. You can try ginger tea or ginger candies.\n*   **Avoid Lying Down:** Stay upright for at least 2-3 hours after eating to prevent acid from flowing back into your esophagus.\n*   **Avoid Trigger Foods:** Besides samosas, spicy, fried, and fatty foods, citrus fruits, tomatoes, caffeine, and alcohol can also trigger acidity.\n*   **Small, Frequent Meals:** Eating smaller meals more frequently can help reduce the amount of acid your stomach produces at one time.\n\n**When to Seek Medical Attention:**\n\nYou should see a doctor if:\n\n*   Your symptoms are severe or don't improve with home remedies or over-the-counter medications.\n*   You experience frequent heartburn (more than twice a week).\n*   You have difficulty swallowing.\n*   You have unexplained weight loss.\n*   You are vomiting blood or have black, tarry stools.\n*   You experience chest pain, especially if accompanied by shortness of breath or pain radiating to your arm or jaw (this could be a sign of a heart attack).\n\n**Could you tell me more about your symptoms?**\n\n*   How long have you been feeling acidic?\n*   Are you experiencing any other symptoms besides stomach acidity, such as nausea, bloating, or heartburn?\n*   Do you have any known allergies or medical conditions?\n*   Are you currently taking any medications?\n\nAnswering these questions will help me give you more tailored and helpful information."
+            ]
+        },
+        {
+            "tag": "llm_response_2299",
+            "patterns": [
+                "headache"
+            ],
+            "responses": [
+                "Okay, I understand you're experiencing a headache. To help me understand what might be going on and what advice I can offer (remember, I'm an AI and cannot provide medical diagnoses or treatment), I need a little more information. Can you tell me more about your headache? For example:\n\n*   **Where is the headache located?** (e.g., temples, forehead, back of the head, all over)\n*   **What does the headache feel like?** (e.g., throbbing, sharp, dull, pressure)\n*   **How long have you had the headache?** (e.g., hours, days, weeks)\n*   **When did the headache start?** (e.g. this morning, yesterday, gradually over time)\n*   **How severe is the pain?** (On a scale of 1 to 10, with 1 being mild and 10 being the worst pain imaginable)\n*   **Are there any other symptoms?** (e.g., nausea, vomiting, sensitivity to light or sound, dizziness, stiff neck, fever, vision changes)\n*   **What have you already tried to relieve the headache?** (e.g., pain medication, rest, hydration)\n*   **Do you have any known medical conditions?**\n*   **Are you taking any medications?**\n\nThe more information you can provide, the better I can assist you in understanding possible causes and suggesting appropriate next steps.\n\n**Important Note:** If you are experiencing a sudden, severe headache, especially with fever, stiff neck, vision changes, weakness, numbness, difficulty speaking, or loss of consciousness, **seek immediate medical attention**. These could be signs of a serious condition."
+            ]
+        },
+        {
+            "tag": "llm_response_8750",
+            "patterns": [
+                "head itching"
+            ],
+            "responses": [
+                "Okay, I can help with that. Itchy scalp can be caused by a number of things. To give you the best information, I need to ask you a few questions. Please remember I am an AI and cannot give medical advice. This information is for informational purposes only, and you should consult with a healthcare professional for any health concerns.\n\n**First, let's try to narrow down some possibilities. Tell me about your itching:**\n\n*   **When did the itching start?** (e.g., a few days ago, a few weeks ago, a long time ago)\n*   **Is it constant, or does it come and go?**\n*   **Is the itching all over your scalp, or just in one area?**\n*   **How severe is the itching?** (e.g., mild, moderate, severe)\n*   **Does anything make the itching better or worse?** (e.g., washing your hair, certain products, stress)\n\n**Next, let's talk about any visible changes or symptoms:**\n\n*   **Do you see any redness, bumps, or flakes on your scalp?**\n*   **Do you have dandruff? If so, is it oily or dry?**\n*   **Have you noticed any hair loss?**\n*   **Do you have any sores or scabs on your scalp?**\n*   **Have you noticed any small insects or nits (lice eggs) in your hair?**\n\n**Finally, a little about your general health and habits:**\n\n*   **Have you recently changed your shampoo, conditioner, or any other hair products?**\n*   **Do you have any known allergies?**\n*   **Have you been under a lot of stress lately?**\n*   **Do you have any other medical conditions?**\n\nOnce I have this information, I can provide you with some potential causes of your itchy scalp and some general information about them. Remember, this is not a diagnosis, and you should see a doctor for proper evaluation and treatment."
+            ]
+        },
+        {
+            "tag": "llm_response_8360",
+            "patterns": [
+                "headache"
+            ],
+            "responses": [
+                "Okay, I understand you're experiencing a headache. To help me understand what might be going on and offer some helpful information, could you tell me a little more about it? For example:\n\n*   **Where is the headache located?** (e.g., temples, forehead, back of head, one side)\n*   **What does the headache feel like?** (e.g., throbbing, sharp, dull, pressure)\n*   **How long have you had the headache?**\n*   **When did it start?**\n*   **How severe is the pain?** (On a scale of 1 to 10, with 1 being mild and 10 being the worst pain imaginable)\n*   **What, if anything, makes the headache better or worse?** (e.g., rest, light, noise, certain foods)\n*   **Do you have any other symptoms?** (e.g., nausea, vomiting, vision changes, stiff neck, fever, sensitivity to light or sound)\n*   **Have you taken any medication for the headache?**\n*   **Do you have any known medical conditions?**\n*   **Are you currently taking any medications?**\n\n**Important Note:** I am an AI and cannot provide medical diagnoses or treatment. The information I provide is for informational purposes only and should not be considered medical advice. **If you are experiencing a severe headache, especially if it is sudden and intense, or accompanied by other concerning symptoms like fever, stiff neck, vision changes, weakness, or confusion, seek immediate medical attention.**"
+            ]
+        },
+        {
+            "tag": "llm_response_7220",
+            "patterns": [
+                "forhead "
+            ],
+            "responses": [
+                "Forehead"
+            ]
+        },
+        {
+            "tag": "llm_response_7616",
+            "patterns": [
+                "fever"
+            ],
+            "responses": [
+                "Okay, I understand you're experiencing a fever. To help me understand the situation better and provide you with the most relevant information, could you tell me:\n\n*   **How high is your temperature?** (If you've taken it)\n*   **How long have you had the fever?**\n*   **Do you have any other symptoms?** (e.g., cough, sore throat, body aches, chills, headache, nausea, vomiting, diarrhea, rash)\n*   **Are you taking any medications?**\n*   **Do you have any underlying health conditions?**\n*   **Are you in a high-risk group?** (e.g., elderly, very young, pregnant, immunocompromised)\n\nIn the meantime, here's some general information about fevers:\n\n*   A fever is generally considered a body temperature of 100.4\u00b0F (38\u00b0C) or higher.\n*   Fevers are often a sign that your body is fighting an infection.\n*   You can try to manage a fever at home with rest, fluids, and over-the-counter fever reducers like acetaminophen (Tylenol) or ibuprofen (Advil, Motrin). *Please follow the dosage instructions on the medication label and consult with a healthcare professional if you have any questions or concerns.*\n\n**Disclaimer:** *I am an AI assistant and cannot provide medical advice. The information provided is for general knowledge and informational purposes only, and does not constitute medical advice. It is essential to consult with a qualified healthcare professional for any health concerns or before making any decisions related to your health or treatment.*\n\nOnce I have more information from you, I can provide more specific guidance and help you determine if you should seek medical attention."
+            ]
+        },
+        {
+            "tag": "llm_response_9840",
+            "patterns": [
+                "i have a headache and back pain"
+            ],
+            "responses": [
+                "Okay, I understand you're experiencing a headache and back pain. To help me understand what might be going on and offer you the best advice, I need to ask you a few questions. Please remember, I am an AI and cannot provide medical diagnoses. This information is for guidance only, and you should always consult with a qualified healthcare professional for any health concerns.\n\nCould you tell me more about your headache and back pain? Specifically:\n\n**About your headache:**\n\n*   **Where is the headache located?** (e.g., forehead, temples, back of head, all over)\n*   **What does the headache feel like?** (e.g., throbbing, dull, sharp, pressure)\n*   **How severe is the pain on a scale of 1 to 10, with 1 being mild and 10 being the worst pain imaginable?**\n*   **When did the headache start?**\n*   **What makes the headache better or worse?** (e.g., light, noise, movement, rest, medication)\n*   **Do you have any other symptoms with the headache?** (e.g., nausea, vomiting, vision changes, dizziness, sensitivity to light or sound)\n\n**About your back pain:**\n\n*   **Where is the back pain located?** (e.g., upper back, lower back, mid-back, left side, right side)\n*   **What does the back pain feel like?** (e.g., sharp, dull, aching, burning, radiating)\n*   **How severe is the pain on a scale of 1 to 10?**\n*   **When did the back pain start?**\n*   **What makes the back pain better or worse?** (e.g., sitting, standing, bending, twisting, lying down, exercise, heat, cold)\n*   **Does the pain radiate to other areas, such as your legs or buttocks?**\n*   **Do you have any other symptoms with the back pain?** (e.g., numbness, tingling, weakness in your legs or feet, bowel or bladder problems)\n\n**General Information:**\n\n*   **Have you had headaches or back pain like this before?**\n*   **Have you recently had any injuries or accidents?**\n*   **What medications are you currently taking, including over-the-counter medications and supplements?**\n*   **Do you have any known medical conditions?**\n*   **Are you experiencing any stress or anxiety?**\n*   **Are you pregnant or breastfeeding?**\n\nOnce I have this information, I can provide you with some general information and suggestions for self-care. However, it's crucial to see a doctor if your pain is severe, persistent, or accompanied by other concerning symptoms."
+            ]
+        },
+        {
+            "tag": "llm_response_2131",
+            "patterns": [
+                "i am having vomiting and loose motion "
+            ],
+            "responses": [
+                "Okay, I understand you're experiencing vomiting and loose motion (diarrhea). This can be caused by a number of things, ranging from a mild stomach bug to something more serious.\n\nTo help me understand your situation better and give you the best possible advice, could you tell me more about the following:\n\n*   **How long have you been experiencing these symptoms?** (e.g., a few hours, a day, several days)\n*   **How frequent are the vomiting and loose motions?** (e.g., How many times have you vomited in the last few hours? How many loose motions have you had today?)\n*   **What does the vomit and stool look like?** (e.g., Is there blood in either? What color are they?)\n*   **Do you have any other symptoms?** (e.g., fever, abdominal pain, cramping, weakness, dizziness, headache, muscle aches, dehydration)\n*   **Have you eaten anything unusual or potentially contaminated recently?** (e.g., new restaurant, undercooked food)\n*   **Are you taking any medications?**\n*   **Do you have any underlying health conditions?**\n*   **Are you pregnant or breastfeeding?**\n*   **Are you able to keep down any fluids?**\n\n**Important Note:** I am an AI and cannot provide medical diagnoses or treatment. The information I provide is for informational purposes only and does not substitute professional medical advice.\n\nBased on your answers, I can offer some general guidance and help you determine if you should seek immediate medical attention. If you are experiencing severe symptoms such as:\n*   **Severe dehydration (decreased urination, dizziness, extreme thirst)**\n*   **High fever (over 103\u00b0F or 39.4\u00b0C)**\n*   **Severe abdominal pain**\n*   **Bloody vomit or stool**\n*   **Inability to keep down fluids**\n\n**Then, please seek immediate medical attention. Go to the nearest emergency room or urgent care clinic.**\n\nPlease provide as much detail as you can so I can assist you effectively."
+            ]
+        },
+        {
+            "tag": "llm_response_6871",
+            "patterns": [
+                "swolloen leg"
+            ],
+            "responses": [
+                "Okay, I understand you're concerned about a swollen leg. I can't provide medical diagnoses or treatment, but I can help you understand why that's happening and what information would be helpful for a doctor.\n\nSwelling in the leg, also known as edema, can be caused by a variety of factors. To help me understand your situation better (and to help you prepare for a doctor's visit), could you tell me more about the following:\n\n*   **Which leg is swollen?** Is it just one leg, or both?\n*   **Where is the swelling located?** Is it in your ankle, foot, calf, thigh, or the entire leg?\n*   **When did the swelling start?** Did it come on suddenly, or has it developed gradually?\n*   **Are there any other symptoms?** For example, pain, redness, warmth, skin discoloration, itching, or changes in sensation.\n*   **Have you had any recent injuries?**\n*   **Do you have any known medical conditions?** Such as heart problems, kidney problems, liver problems, or diabetes?\n*   **Are you taking any medications?**\n*   **Are you pregnant?**\n*   **Have you been sitting or standing for long periods?**\n*   **Have you noticed any changes in your urination?**\n\n**In the meantime, here are some general things you can do:**\n\n*   **Elevate your leg:** Try to keep your leg raised above your heart level as much as possible.\n*   **Avoid prolonged standing or sitting:** If you need to stand or sit for a long time, take breaks to move around.\n*   **Wear loose-fitting clothing:** Avoid tight clothing that could restrict blood flow.\n\n**Important Disclaimer:** **I am an AI assistant and cannot provide medical advice.** This information is for general knowledge and informational purposes only, and does not constitute medical advice. It is essential to consult with a qualified healthcare professional for any health concerns or before making any decisions related to your health or treatment. **If you are experiencing sudden, severe swelling, especially if accompanied by chest pain, difficulty breathing, or other concerning symptoms, seek immediate medical attention.**"
+            ]
+        }
+    ]
+}
