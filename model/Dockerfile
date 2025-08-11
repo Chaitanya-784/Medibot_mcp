@@ -5,8 +5,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Step 3: Copy the contents of your local project directory (the 'model' directory) to the container at /app
-COPY model/ /app/
-
+COPY . /app
 # Step 4: Install any dependencies you need, based on requirements.txt
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
