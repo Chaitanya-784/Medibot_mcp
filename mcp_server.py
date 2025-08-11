@@ -238,4 +238,4 @@ app = Starlette(routes=[Mount("/mcp", app=mcp.sse_app())])
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("mcp_server:app", host="0.0.0.0", port=8086, reload=True)
+    uvicorn.run("mcp_server:app", host="0.0.0.0", port=8080, reload=True)
