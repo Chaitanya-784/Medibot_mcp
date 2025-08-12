@@ -1,4 +1,4 @@
-# mcp_server.py
+# mcp_server.py (Refactored for faster startup)
 import os, io, json, base64, typing, random, pickle
 from typing import Optional, Dict, Any
 
@@ -37,37 +37,39 @@ try:
 except Exception:
     TOKEN_MAP = {}
 
-# ---------- NLTK data ----------
-def _ensure_nltk():
-    try: nltk.data.find("tokenizers/punkt")
-    except LookupError: nltk.download("punkt", quiet=True)
-    try: nltk.data.find("corpora/wordnet")
-    except LookupError: nltk.download("wordnet", quiet=True)
-_ensure_nltk()
+# ---------- NLTK & Keras Globals ----------
+# REMOVE: The _ensure_nltk() function is no longer needed.
+# The Dockerfile now handles this.
 
-# ---------- FastMCP ----------
-mcp = FastMCP("MediBot MCP")
-
-# ---------- Lazy Keras + intents ----------
 LEMMA = WordNetLemmatizer()
+# We will load these at startup, not lazily.
 _NLP = None
 _WORDS = None
 _CLASSES = None
 _INTENTS = None
 
-def _lazy_load():
-    global _NLP, _WORDS, _CLASSES, _INTENTS
-    if _NLP is None:
-        print("[INFO] Loading model.h5/word.pkl/class.pkl/intents.json ...")
-        _NLP = load_model("model.h5")
-        _WORDS = pickle.load(open("word.pkl", "rb"))
-        _CLASSES = pickle.load(open("class.pkl", "rb"))
-        with open("intents.json", "r", encoding="utf-8") as f:
-            _INTENTS = json.load(f)
+# ---------- FastMCP Instance ----------
+mcp = FastMCP("MediBot MCP")
 
+# ---------- ADD: Startup Event to Load Models ----------
+@mcp.on_event("startup")
+def load_ml_models():
+    """Load all ML resources into memory when the app starts."""
+    global _NLP, _WORDS, _CLASSES, _INTENTS
+    print("[INFO] Loading Keras model and data files...")
+    _NLP = load_model("model.h5")
+    _WORDS = pickle.load(open("word.pkl", "rb"))
+    _CLASSES = pickle.load(open("class.pkl", "rb"))
+    with open("intents.json", "r", encoding="utf-8") as f:
+        _INTENTS = json.load(f)
+    print("[INFO] Model and data files loaded successfully.")
+
+# ---------- Intent Prediction (Simplified) ----------
 def _predict_intent(text: str, thresh: float = 0.9) -> Optional[str]:
+    # REMOVE: The _lazy_load() call is no longer needed.
+    # Models are guaranteed to be loaded at this point.
     if not text.strip(): return None
-    _lazy_load()
+    
     tokens = [LEMMA.lemmatize(t.lower()) for t in nltk.word_tokenize(text)]
     bag = np.zeros(len(_WORDS), dtype=np.float32)
     for t in tokens:
@@ -83,12 +85,15 @@ def _predict_intent(text: str, thresh: float = 0.9) -> Optional[str]:
                 return random.choice(intent["responses"])
     return None
 
-# ---------- Helpers ----------
+#
+# ... (the rest of your helper functions and tools like _mime_of, _gemini, get_health_advice, etc. remain unchanged) ...
+#
+
+# ---------- Helpers (No changes needed below this line) ----------
 def _mime_of(data: bytes) -> str:
     if HAVE_MAGIC:
         try: return magic.from_buffer(data, mime=True)
         except Exception: pass
-    # Fallbacks
     if data[:5] == b"%PDF-": return "application/pdf"
     try:
         Image.open(io.BytesIO(data)); return "image/unknown"
@@ -130,14 +135,13 @@ def _extract_questions(response: str) -> typing.List[str]:
     for line in response.split('\n'):
         line = line.strip(' -*\t')
         if not line: continue
-        # Simple heuristic to identify a question
         if (line.endswith('?') or line[:2].isdigit()) and len(line) < 200:
             questions.append(line)
         elif any(line.lower().startswith(prefix) for prefix in ('when', 'how', 'is', 'does', 'do', 'have', 'are', 'was', 'what', 'can', 'where', 'please', 'will')) and line.endswith('?'):
             questions.append(line)
     return questions
 
-# ---------- Session Management (New) ----------
+# ---------- Session Management ----------
 _sessions: Dict[str, Dict[str, Any]] = {}
 
 # ---------- Tools ----------
@@ -156,8 +160,6 @@ def get_health_advice(user_id: str,
                       file: Optional[Dict[str, Any]] = None,
                       file_b64: Optional[str] = None) -> dict:
     message = (message or "").strip()
-
-    # Handle active multi-turn session
     session = _sessions.get(user_id)
     if session and session.get('stage') == 'questioning':
         session['answers'].append(message)
@@ -175,12 +177,10 @@ def get_health_advice(user_id: str,
             del _sessions[user_id]
             return {"advice": response}
 
-    # Intent classifier gate (Original Logic)
     canned = _predict_intent(message)
     if canned:
         return {"advice": canned}
 
-    # Handle files (Enhanced Logic)
     parts: typing.List[typing.Any] = []
     raw = _coerce_bytes(file, file_b64)
 
@@ -203,10 +203,8 @@ def get_health_advice(user_id: str,
             parts = [prompt]
         else:
             parts = [f"Unknown file type; answer based on text only.\n\nUser: {message or '(no text)'}"]
-        
         return {"advice": _gemini(parts)}
 
-    # New session: Gemini fallback logic with multi-turn Q&A
     if not message:
         return {"advice": "Please type a message or upload a file."}
     
@@ -234,10 +232,12 @@ def get_health_advice(user_id: str,
         return {"advice": gemini_response}
 
 # ---------- ASGI app at /mcp ----------
+# The `on_event` decorator is tied to the FastMCP/Starlette app instance `mcp`.
+# Now we create the final app using this configured instance.
 app = Starlette(routes=[Mount("/mcp", app=mcp.sse_app())])
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))   # Use $PORT if set, or default 8080
-    # For Starlette/Uvicorn:
+    port = int(os.environ.get("PORT", 8080))
     import uvicorn
-    uvicorn.run("mcp_server:app", host="0.0.0.0", port=port)
+    # This now runs the app which will trigger the 'startup' event.
+    uvicorn.run(app, host="0.0.0.0", port=port)
