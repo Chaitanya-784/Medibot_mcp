@@ -237,5 +237,7 @@ def get_health_advice(user_id: str,
 app = Starlette(routes=[Mount("/mcp", app=mcp.sse_app())])
 
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))   # Use $PORT if set, or default 8080
+    # For Starlette/Uvicorn:
     import uvicorn
-    uvicorn.run("mcp_server:app", host="0.0.0.0", port=8080, reload=True)
+    uvicorn.run("mcp_server:app", host="0.0.0.0", port=port)
